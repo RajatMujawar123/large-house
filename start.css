@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+#mainMRS{
+    border: 5px solid;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+#headingMRS{
+    border: 1px solid red;
+    width: 48%;
+    padding: 10px;
+    margin: auto;
+}
+#headingMRS>button{
+    width: 150px;
+    height: 45px;
+    background-color: #028858;
+    color: white;
+    border-color: transparent;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;  
+}
+#headingMRS>h1{
+    font-size: 48px;
+}
+#photoMRS{
+    border: 1px solid green;
+    margin-top: 50px;
+    display: flex;
+}
+#photoMRS>div{
+    width: 50%;
+    height: 50px;
+}
+#photo2MRS>div{
+    border: 1px yellow solid;
+    width: 95%;
+    margin-left: 33px;
+}
+#photo1MRS>img{
+    width: 100%;
+    height: 620px;
+}
+#subPic1MRS>img{
+    width: 95%;
+    height: 280px;
+    margin-left: 28px;
+}
+#subPic2MRS>img{
+    width: 95%;
+    height: 280px;
+    margin-left: 28px;
+    /* margin-top: 30px; */
+}
+.paraMRS{
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    position: relative;
+    /* left: 30px; */
+    bottom: 60px;
+}
+.para2MRS{
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    position: relative;
+    left: 30px;
+    bottom: 80px;
+}
+#quoteMRS{
+    border: 1px solid yellowgreen;
+    margin-top: 50px;
+    width: 100%;
+    height: 200px;
+}
