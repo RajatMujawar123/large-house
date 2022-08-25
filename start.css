@@ -1,0 +1,199 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#mainMRS{
+    border: 5px solid;
+    width: 80%;
+    height: 1200px;
+    margin: auto;
+    margin-top: 50px;
+}
+#headingMRS{
+    border: 1px solid red;
+    width: 48%;
+    padding: 10px;
+    margin: auto;
+}
+#headingMRS>button{
+    width: 150px;
+    height: 45px;
+    background-color: #028858;
+    color: white;
+    border-color: transparent;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;  
+}
+#headingMRS>h1{
+    font-size: 48px;
+}
+#photoMRS{
+    border: 1px solid green;
+    margin-top: 50px;
+    display: flex;
+}
+#photoMRS>div{
+    width: 50%;
+    height: 50px;
+}
+#photo2MRS>div{
+    border: 1px yellow solid;
+    width: 95%;
+    margin-left: 33px;
+}
+#photo1MRS>img{
+    width: 100%;
+    height: 620px;
+}
+#subPic1MRS>img{
+    width: 95%;
+    height: 280px;
+    margin-left: 28px;
+}
+#subPic2MRS>img{
+    width: 95%;
+    height: 280px;
+    margin-left: 28px;
+    /* margin-top: 30px; */
+}
+.paraMRS{
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    position: relative;
+    /* left: 30px; */
+    bottom: 60px;
+}
+.para2MRS{
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    position: relative;
+    left: 30px;
+    bottom: 80px;
+}
+#quoteMRS{
+    border: 1px solid yellowgreen;
+    margin-top: 50px;
+    width: 100%;
+    background-color: #034752;
+}
+#headquoteMRS{
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 60px;
+    
+}
+#headquoteMRS>h1{
+    font-size: 44px;
+    font-weight: lighter;
+    color: white;
+}
+#subheadMRS{
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+}
+#subheadMRS>h1{
+    font-size: 14px;
+    color: white;
+}
+#anotherMainMRS{
+    border: 1px solid chocolate;
+    width: 60%;
+    margin: auto;
+    margin-top: 80px;
+}
+#anotherMainMRS>h1{
+    font-size: 40px;
+    font-weight: lighter;
+}
+#gridMRS{
+    border: 1px solid teal;
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 50px;
+}
+#gridMRS>div{
+    border: 1px solid cyan;
+}
+#gridMRS h1{
+    font-size: 28px;
+    font-weight: lighter;
+    width: 70%;
+}
+#gridMRS p{
+    font-size: 18px;
+}
+.paraextraMRS{
+    margin-top: 20px;
+}
+#videoMRS{
+    border: 1px solid pink;
+    background-color: #282828;
+    margin-top: 60px;
+    padding: 100px;
+}
+#videoPlayM{
+    width: 80%;
+    height: 600px;
+    display: block;
+    margin: auto;
+}
+.moveParaM{
+    margin-top: 25px;
+}
+.numHeadM{
+    margin-top: 10px;
+}
+#lineMRS{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    border-color: black;
+}
+#thirdMainMRS{
+    border: 1px solid violet;
+    width: 80%;
+    margin: auto;
+}
+#thirdMainMRS>h1{
+    width: 40%;
+}
+#simNavbarMRS{
+    border: 1px solid slateblue;
+    width: 100%;
+    display: flex;
+    gap: 40px;
+}
+#simNavbarMRS>a{
+    text-decoration-line: none;
+    color: grey;
+    font-weight: 10px;
+}
+#simNavbarMRS>a:hover{
+    text-decoration-line: underline;
+    color: teal;
+    cursor: pointer;
+    font-size: 18px;
+}
+#fromMRS{
+    border: 1px solid red;
+    display: flex;
+}
+#intersMRS{
+    border: 1px solid;
+    width: 50%;
+    padding: 10px;
+}
+#backMRS{
+    width: 50%;
+    background-color: yellow;
+}
