@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/03ec454ecd.js" crossorigin="anonymous"></script>
+    <style>
+      *{
+         font-family: Arial, Helvetica, sans-serif;
+      }
+     .back{
+        position: relative;
+        font-size: 30px;
+        border-bottom: 1px solid #007460;
+        margin-top: 20px;
+     }
+     .back:hover >.drop-back{
+        display:block;
+     }
+     .drop-back{
+        display: none;
+     }
+     .drop-back>div{
+        margin-top: 15px;
+
+     }
+     a{
+        text-decoration: none;
+        font-size: 40px;
+        color: black;
+     }      
+
+     .back:hover >.drop-back1{
+        display:block;
+     }
+     .drop-back1{
+        display: none;
+    
+     }
+     .drop-back1>div{
+        display:flex;
+       font-size: 40px;
+        align-items: center;
+        gap: 10px;
+        color: black;
+     }
+     .drop-back1>div>p{
+        font-size: 15px;
+        padding-top: 7px;
+        color: #007460;
+     }
+     .back1{
+       border-bottom: 1px solid #007460;
+        font-size: 30px;
+        position: relative;
+       
+     }
+     .back1:hover >.drop-back1{
+        display:block;
+      
+     }
+    #cross{
+      display: flex;
+      justify-content: space-between;
+      
+    }
+   
+    #cross>a>img{
+      width: 40px;
+      margin-right: 50px;
+      margin-top: 30px;
+    }
+    .drop-back1>div{
+      margin-top:20px;
+     }
+     .drop-back1:hover{
+      color: #007460;
+     }
+    </style>
+</head>
+<body>
+    <div class="back1">
+      <div id=cross><p>Collections</p><a href=""><img src="data:image/png;base64,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" alt=""></a></div>
+        <div class="drop-back1">
+      
+               <div><a href="">Projects We Love</a></div> 
+               <div> <a href="">Trending</a></div>
+               <div><a href="">Nearly Funded</a></div>
+               <div><a href="">Just Launched</a></div> 
+               <div><a href="">Upcoming Projects</a></div>
+               <div><a href="">Projects Near You</a></div>
+               <div><a href="">Everything</a></div> 
+        </div>
+    </div>
+    <div class="back">Sections
+        <div class="drop-back">
+           <div> <a href="">Arts</a></div>
+            <div><a href="">Comics & Illustration</a></div>
+            <div><a href="">Design & Tech</a></div>
+            <div><a href="">Film</a></div>
+           <div><a href="">Food & Craft</a></div> 
+           <div><a href="">Games</a></div> 
+            <div><a href="">Music</a></div>
+            <div><a href="">Publishing</a></div>
+        </div>
+ 
+    </div>
+    
+    <div class="back">Categories
+        <div class="drop-back1">
+            
+            <div>Arts <p>259</p></div>
+            <div>Comics<p>242</p></div>
+            <div>Crafts<p>49</p></div>
+            <div>Dance<p>9</p></div>
+            <div>Design<p>297</p></div>
+            <div>Fashion<p>164</p></div>
+            <div>Film & Video<p>279</p></div>
+            <div>Food<p>96</p></div>
+            <div>Games<p>693</p></div>
+            <div>Journalism<p>17</p></div>
+            <div>Music<p>165</p></div>
+            <div>Photography<p>36</p></div>
+            <div>Publishing<p>349</p></div>
+            <div>Technology<p>244</p></div>
+            <div>Theater<p>29</p></div>
+        </div>
+ 
+    </div>
+
+    <div class="back">On Our Radar
+        <div class="drop-back">
+            <div><a href="">Affordable Art</a></div>
+            <div><a href="">Bikes</a></div>
+            <div><a href="">DIY</a></div>
+            <div><a href="">Enviormental</a></div>
+            <div><a href="">For Kids</a></div>
+            <div><a href="">LGBTQIA+</a></div>
+            <div><a href="">Magic & Divination</a></div>
+            <div><a href="">Public Benefit</a></div>
+            <div><a href="">Robot</a></div>
+            <div><a href="">RPGs</a></div>
+            <div><a href="">Sci-Fi and Fantasy</a></div>
+            <div><a href="">STEM</a></div>
+            <div> <a href="">Zine Quest</a></div>
+        </div>
+ 
+    </div>
+
+
+
+</body>
+</html>
