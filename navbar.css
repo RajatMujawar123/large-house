@@ -2,6 +2,7 @@
     width: 100%;
     height: 60px;
     border: 1px solid transparent;
+    border-bottom-color: grey;
     display: flex;
     gap: 150px;
     justify-content: space-between;
@@ -37,7 +38,45 @@ cursor: pointer;
 
 }
 
+#navbar>div>p{
+    color: grey;
+}
+
 
 *{
     font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#navbar-2{
+    width: 100%;
+    height: 60px;
+    border: 1px solid transparent;
+    border-bottom-color: grey;
+   
+}
+
+#navbar-2>div{
+    width: 70%;
+    height: 60px;
+    border: 1px solid transparent;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+
+   
+}
+
+#navbar-2>div>a{
+    text-decoration: none;
+    color: grey;
+    cursor: pointer;
+}
+
+#navbar-2>div>a:hover{
+
+text-decoration: underline;
+color: #05CE78;
+
 }
