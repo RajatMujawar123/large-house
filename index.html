@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Login and Signup Form </title>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Boxing CSS-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <section class="container forms">
+        <div class="form login">
+            <div class="form-content">
+                <header>Log in</header>
+
+                <form action="#">
+                    <div class="filed input-filed">
+                        <input type="email" placeholder="Email" class="input">
+                    </div>
+
+                    <div class="filed input-filed">
+                        <input type="password" placeholder="Password" class="password">
+<!--hear we have inserted a font which act as img(hide pasword)-->
+                        <i class='bx bx-hide eye-icon'></i>
+                    </div>
+
+                    <div class="form-link">
+                        <a href="#" class="forgot-pass">Forgot passworf?</a>
+                    </div>
+                    <div class="filed button-filed">
+                        <button>Login</button>
+                    </div>
+                </form>
+
+                <div class="form-link">
+                    <span>New to Kickstarter? <a href="#" class="link signup-link">Signup</a></span>
+                </div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="media-options">
+                <a href="#" class="filed facebook">
+                    <i class='bx bxl-facebook facebook-icon'></i>
+                    <span>Continue with Facebook</span>
+                </a>
+            </div>
+
+            <div class="media-options">
+                <a href="#" class="filed apple">
+                    <img src="image/apple.jpg" alt="" class="apple-img">
+                    <span>Sign in with Apple</span>
+                </a>
+            </div>
+            <p id="para">Get notified when your friends back and launch projects. We'll never post anything on Facebook without your permission.</p>
+            <a id="readmore" href="#">Read more</a>
+        </div>
+
+<!--Signup Form -->
+
+        <div class="form signup">
+            <div class="form-content">
+                <header>Signup</header>
+                <form action="#">
+                    <div class="filed input-filed">
+                        <input type="text" placeholder="Name" class="input">
+                    </div>
+
+                    <div class="filed input-filed">
+                        <input type="email" placeholder="Email" class="input">
+                    </div>
+
+                    <div class="filed input-filed">
+                        <input type="password" placeholder="Password" class="password">
+                    </div>
+
+                    <div class="filed input-filed">
+                        <input type="password" placeholder="Re-enter password" class="password">
+<!--hear we have inserted a font which act as img(hide pasword)-->
+                        <i class='bx bx-hide eye-icon'></i>
+                    </div>
+
+                    <div class="filed button-filed">
+                        <button>Create account</button>
+                    </div>
+                </form>
+
+                <div class="form-link">
+                    <span>New to Kickstarter? <a href="#" class="link login-link">Login</a></span>
+                </div>
+            </div>
+
+            <div class="line"></div>
+
+            <!-- <div class="media-options">
+                <a href="#" class="filed facebook">
+                    <i class='bx bxl-facebook facebook-icon'></i>
+                    <span>Continue with Facebook</span>
+                </a>
+            </div> -->
+
+            <div class="media-options">
+                <a href="#" class="filed apple">
+                    <img src="image/apple.jpg" alt="" class="apple-img">
+                    <span>Sign in with Apple</span>
+                </a>
+            </div>
+        </div>
+
+    </section>
+    
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
