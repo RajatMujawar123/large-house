@@ -25,9 +25,13 @@
         margin-top: 30px;
         color: rgb(101,105,105);
        }
+       #h11{
+        font-weight: 20;
+       }
 
        /* container-2 CSS */
        #container-2{
+        border: solid transparent 1px;
         /* border: solid darkgray 0.5px; */
         width: 90%;
         height: 110px;
@@ -35,7 +39,7 @@
         margin-top: 20px;
         display: flex;
         justify-content: space-around;
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
         border-left: 0px;
        }
        .class-1{
@@ -46,14 +50,18 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-         border-left: solid grey 1px; 
+         /* border-left: solid grey 1px;  */
+         box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
        }
+       
        .p1{
         margin-top: 10px;
         color: #656969;
+        font-weight: 20;
        }
        .h-1{
        color: #037362;
+       font-weight: 20;
        }
 
        /* Container-3 CSS */
@@ -311,11 +319,138 @@ font-weight: 20;
 
 /* Container -8 */
 #container-8{
-  border: solid red 1px;
   margin: auto;
+  border: solid transparent 1px;
+  margin-top: 20px;
   width: 90%;
+  height: 600px;
+  display:grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows:repeat(1,600px);
+  gap: 20px;
+}
+#container-8>div{
+  border: solid transparent 1px;
+  cursor: pointer;
+}
+.cont-1-1{
+  border: solid transparent 1px;
+}
+#container-8-1{
+  margin: auto;
+  border-bottom:  rgb(156 163 175) solid 1px;
+  height: 670px;
+/* border: solid transparent 1px; */
+}
+#p9{
+  margin-top: 50px;
+  margin-left: 67px;
+  font-size: 12px;
+  color: #656969;
+   font-weight: bold;
+}
+.cont-8-1>img{
+  width: 100%;
+ height: 60%;
+}
+#text4{
+  margin-top: 15px;
+  font-weight: 10;
+}
+#text4:hover{
+  color: #037362;
+  text-decoration: underline 1px;
+}
+.text5{
+  margin-top: 15px;
+    color: #282828;
+    line-height: 18px;
+    font-weight: 10;
+}
+.text5:hover{
+  color: #037362;
+ color: #037362;
+  text-decoration: underline 1px;
+}
+.text6{
+  margin-top: 20px;
+  color: #656969;
+}
+.text6:hover{
+  text-decoration: underline 1px;
 }
 
+/* container 9 */
+#container-9{
+  margin: auto;
+  border-bottom:   rgb(156 163 175) solid 1px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+}
+#cont9-1{
+  margin: auto;
+  border: solid transparent 1px;
+  width: 90%;
+  height: 80%;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: auto;
+  gap: 40px;
+}
+.cont9-2{
+  /* border: solid red 1px; */
+ height: 230px;
+ display: flex;
+ gap: 20px;
+ align-items: center;
+ box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#cont9-3{
+  border: solid transparent 1px;
+  width: 30%;
+  height: 80%;
+  margin-left: 20px;
+  cursor: pointer;
+}
+#cont9-4{
+  border: solid transparent 1px;
+  width: 60%;
+  height: 80%;
+  cursor: pointer;
+ 
+}
+.img9{
+width: 100%;
+height:100%;
+}
+.text11{
+  font-weight: 20;
+  font-family: "Maison Neue Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px
+}
+.text11:hover{
+  text-decoration-line: underline;
+}
+.text12{
+  margin-top: 20px;
+  line-height: 25px;
+  width: 340px;
+  color: #282828
+}
+#cont9-5{
+  border: solid transparent 1px;
+ height: 70%;
+}
+.text13{
+  margin-top: 30px;
+   color: #5555FF; 
+   fill: #5555FF; 
+}
+#t1{
+  border: solid transparent 1px;
+}
 
     
     </style>
@@ -323,7 +458,7 @@ font-weight: 20;
 <body>
     <!-- container-1 -->
     <div id="container-1">
-        <h1 >Bring a creative project to life.</h1>
+        <h1 id="h11" >Bring a creative project to life.</h1>
         <p id="p1">ON KICKSTARTER:</p>
     </div>
 
@@ -456,8 +591,7 @@ font-weight: 20;
                 <h1 id="p7">Bring an RPG zine to life</h1>
                 <p id="p8">Our annual Zine Quest open call bestows creators with a valiant mission: Bring your RPG to life with maps,
                    adventures, monsters, comics, articles, and interviews! Discover projects inspired by old-school tabletop RPGs, 
-                   like early D&D.Discover projects inspired by old-school tabletop RPGs, like early D&D.
-                   Discover more</p>
+                   like early D&D.Discover projects inspired by old-school tabletop RPGs.</p>
                 <a href="https://www.kickstarter.com/zinequest?ref=section-homepage-promo-bring-an-rpg-zine-to-life"><p id="p6">Discover more</p></a>
             </div>
           
@@ -499,8 +633,7 @@ font-weight: 20;
                 <p id="p8">This October, take part in Witchstarter, 
                 our first open call for Magic & Divination projects.
                 To participate, launch a project in the theme of magic and the occult, 
-                or discover new favorites to pledge to. Deck or dice, book or board game, 
-                ideas for Witchstarter campaigns can span any category on Kickstarter.</p>
+                or discover new favorites to pledge.</p>
                 <a href="https://www.kickstarter.com/blog/kickstarters-2021-benefit-statement-is-out-now?ref=section-homepage-promo-kickstarters-2021-public-benefit-statement"><p id="p6">Read more</p></a>
             </div>
           
@@ -565,7 +698,7 @@ font-weight: 20;
                 <h1 id="p7">How to Create a Great Kickstarter Publishing Project Page</h1>
                 <p id="p8">This October, take part in Witchstarter, 
                 our first open call for Magic & Divination projects.
-                To participate, launch a project in the theme of magic and the occult, 
+                To participate, launch a project in the theme of  occult, 
                 or discover new favorites to pledge to.</p>
                 <a href="https://www.kickstarter.com/articles/how-to-create-a-great-kickstarter-publishing-project-page?ref=section-homepage-promo-how-to-create-a-great-kickstarter-publishing-project-page"><p id="p6">Learn More</p></a>
             </div>
@@ -573,10 +706,164 @@ font-weight: 20;
       </div>
 
       <!-- Container 8 -->
+      <div id="container-8-1">
+        <p id="p9">THE MAKING OF</p>
       <div id="container-8">
-        <div id="container-8-1"></div>
+        <div class="cont-8-1">
+          <img src="https://ksr-ugc.imgix.net/assets/035/690/724/3e458d2659d6527d4fd6f07ff59575b7_original.jpg?ixlib=rb-4.0.2&w=700&fit=max&v=1637871724&gif-q=50&q=92&s=9dbe3c1c61c7675597a04bfc695919b3" alt="">
+          <h3 id="text4">Uusi's Secrets for Kickstarter Success</h3>
+          <h5 class="text5">Linnea Gits of the Uusi design studio shares her Kickstarter story and pays it forward with tips for aspiring creators.</h5>
+          <h6 class="text6">Read more</h6>
+        </div>
+
+        <div class="cont-8-1">
+          <img src="https://ksr-ugc.imgix.net/assets/032/807/542/3180197e9c98c293317ea1f958976633_original.png?ixlib=rb-4.0.2&w=700&fit=max&v=1616194025&gif-q=50&lossless=true&s=59e94db5beedbe4dca5d7dc2eeea93e7" alt="">
+          <h3 id="text4">Composer Christopher Tin wants to create an album to commemorate extinct birds</h3>
+          <h5 class="text5">The Grammy-winning artist is back with a requiem that offers some hope—and a warning—for the planet’s future.</h5>
+          <h6 class="text6">Read more</h6>
+        </div>
+        <div class="cont-8-1">
+          <img src="https://ksr-ugc.imgix.net/assets/032/807/378/63501c9b394f6ec6fde1ad4b6d25cc2b_original.png?ixlib=rb-4.0.2&w=700&fit=max&v=1616192713&gif-q=50&lossless=true&s=fbd2ec0bec2e20b71632e8c1b2699466" alt="">
+          <h3 id="text4">9 creators share advice from their journeys to help guide yours</h3>
+          <h5 class="text5">Over the last several weeks, we hosted a series of small workshops for creators of color and marginalized genders in the UK, in collaboration with gal-dem magazine. Here, we open up some of the insights and advice from those sessions to all.</h5>
+          <h6 class="text6">Read more</h6>
+        </div>
+        <div class="cont-8-1">
+          <img src="https://ksr-ugc.imgix.net/assets/032/699/180/44fbdd589233c610b92decee357951e8_original.png?ixlib=rb-4.0.2&w=700&fit=max&v=1615483388&gif-q=50&lossless=true&s=29744c3fe5530c7af5d4227b10491693" alt="">
+          <h3 id="text4">Focusing on the artist behind the comics sensation</h3>
+          <h5 class="text5">Filmmakers Jim Demonakos and Kevin Hanna are making a documentary about ‘Hellboy’ creator Mike Mignola.</h5>
+          <h6 class="text6">Read more</h6>
+        </div>
+       
+      </div>
+    </div>
+
+      <!-- *********** -->
+      <div id="container-4-1">
+        <div id="container-4">
+            <div id="cont1">
+                <img id="img3" src="https://assets.dicebreaker.com/kickstarter-art-header-updated.png/BROK/resize/844%3E/format/jpg/quality/80/kickstarter-art-header-updated.png" alt="">
+            </div>
+            <div id="cont2">
+                <h1 id="p7">How to Create a Great Kickstarter Publishing Project Page</h1>
+                <p id="p8">This October, take part in Witchstarter, 
+                our first open call for Magic & Divination projects.
+                To participate, launch a project in the theme of  occult, 
+                or discover new favorites to pledge to.</p>
+                <a href="https://www.kickstarter.com/articles/how-to-create-a-great-kickstarter-publishing-project-page?ref=section-homepage-promo-how-to-create-a-great-kickstarter-publishing-project-page"><p id="p6">Learn More</p></a>
+            </div>
+        </div>
+      </div>
+    
+      <!-- Container 9 -->
+      <div id="container-9">
+        <p id="p9">CREATORS' CORNER</p>
+        <div id="cont9-1">
+          <div class="cont9-2">
+            <div id="cont9-3">
+              <img class="img9" src="https://miro.medium.com/max/700/1*VcxVGW4_pIrWmiOlY345EQ.jpeg" alt="">
+            </div>
+            <div id="cont9-4">
+              <div id="cont9-5">
+              <h2 class="text11">Kickstarter Creator Resources</h2>
+              <p class="text12">Our definitive roundup of everything from planning shipping to communicating with backers.</p>
+            </div>
+            <div id="t1">  <a href="https://www.kickstarter.com/creators?ref=section-homepage-promo-kickstarter-creator-resources"><p class="text13">Read more</p></a></div>
+           
+          </div>
+          </div>
+
+          <div class="cont9-2">
+            <div id="cont9-3">
+              <img class="img9" src="https://cdn.filestackcontent.com/resize=width:800/xjpmJOHiRniEtxGp4GfC" alt="">
+            </div>
+            <div id="cont9-4">
+              <div id="cont9-5">
+              <h2 class="text11">How to tell the story of your creative work</h2>
+              <p class="text12">Tips for uncovering the best story you can tell to press, funders, followers, and everybody else.</p>
+            </div>
+            <div id="t1"> <a href="https://www.kickstarter.com/creators?ref=section-homepage-promo-kickstarter-creator-resources"><p class="text13">Read more</p></a> </div>
+           
+          </div>
+          </div>
+          <div class="cont9-2">
+            <div id="cont9-3">
+              <img class="img9" src="https://ksr-static.imgix.net/v6sgxp5m-K74A5783_Take_a_photo_DO_Compressed.jpg?ixlib=rb-2.0.0&auto=compress&w=1000&fit=min&s=39487a75a618f4130cf5738604941237" alt="">
+            </div>
+            <div id="cont9-4">
+              <div id="cont9-5">
+              <h2 class="text11">How to talk about your project honestly and clearly</h2>
+              <p class="text12">Our advice for crafting a project page that’s honest, open, and transparent in both text and visuals.</p>
+            </div>
+            <div id="t1"> <a href="https://www.kickstarter.com/creators?ref=section-homepage-promo-kickstarter-creator-resources"><p class="text13">Read more</p></a></div>
+           
+          </div>
+          </div>
+          <div class="cont9-2">
+            <div id="cont9-3">
+              <img class="img9" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQrzsJwx9NEfem4zZwIEaGrXfePqpoyrveVA&usqp=CAU" alt="">
+            </div>
+            <div id="cont9-4">
+              <div id="cont9-5">
+              <h2 class="text11">Fulfillment from A to Z</h2>
+              <p class="text12">A list of services that can help you with prototyping, manufacturing, packaging, shipping, and more.</p>
+            </div>
+            <div id="t1"><a href="https://www.kickstarter.com/creators?ref=section-homepage-promo-kickstarter-creator-resources"><p class="text13">Read more</p></a></div>
+           
+          </div>
+          </div>
+        </div>
       </div>
 
+
+        <!-- *********** -->
+        <div id="container-4-1">
+          <div id="container-4">
+              <div id="cont1">
+                  <img id="img3" src="data:image/png;base64,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" alt="">
+              </div>
+              <div id="cont2">
+                  <h1 id="p7">Forward Funds</h1>
+                  <p id="p8">Get access to funds from nonprofits and foundations that back Kickstarter campaigns
+                    what is the best plan for the back Kickstarter campaigns and also formalities nonprofits access to fund related to their visions for a more creative and equitable world.</p>
+                  <a href="https://www.kickstarter.com/magic?ref=section-homepage-promo-magic-divination"><p id="p6">Learn more</p></a>
+              </div>
+          </div>
+        </div>
+
+
+         <!-- Container 8 -->
+      <div id="container-8-1">
+        <p id="p9">CREATOR SUCCESS STORIES</p>
+      <div id="container-8">
+        <div class="cont-8-1">
+          <img src="https://www.leguesswho.nl/media/resized/news3/news%202022/HIDDEN%20MUSICS%20small.jpg" alt="">
+          <h3 id="text4">Reviving ‘Wax Poetics,’ the cult magazine for long-form music journalism and vinyl culture</h3>
+          <h5 class="text5">After the magazine closed down, longtime readers Alex Bruh and David Holt launched a campaign to rally an existing and expanding community.</h5>
+          <h6 class="text6">Read more</h6>
+        </div>
+
+        <div class="cont-8-1">
+          <img src="https://ksr-ugc.imgix.net/assets/031/755/267/c625c10b46408fa8beb2bce279bfb10e_original.png?ixlib=rb-4.0.2&w=700&fit=max&v=1608072481&gif-q=50&lossless=true&s=9279b28b1645d946064eb02b61d44113" alt="">
+          <h3 id="text4">How tarot creator Krystal Banner strengthens her intuition—and business—on Kickstarter</h3>
+          <h5 class="text5">The Grammy-winning artist is back with a requiem that offers some hope—and a warning—for the planet’s future.</h5>
+          <h6 class="text6">Read more</h6>
+        </div>
+        <div class="cont-8-1">
+          <img src="https://ksr-ugc.imgix.net/assets/031/177/159/78d513020e363f5f3483d48678cb3453_original.jpg?ixlib=rb-4.0.2&w=700&fit=max&v=1603807761&gif-q=50&q=92&s=3eb24b7ade2b5cba10694af5175e8e72" alt="">
+          <h3 id="text4">Creators: Plan what you can, but prepare for twists and turns</h3>
+          <h5 class="text5">Over the last several weeks, we hosted a series of small workshops for creators of color and marginalized genders in the UK, in collaboration with gal-dem magazine. Here, we open up some of the insights and advice from those sessions to all.</h5>
+          <h6 class="text6">Read more</h6>
+        </div>
+        <div class="cont-8-1">
+          <img src="https://ksr-ugc.imgix.net/assets/030/834/837/90bf0c6bf6ba888fcd8f35a3a85c1709_original.png?ixlib=rb-4.0.2&w=700&fit=max&v=1601587562&gif-q=50&lossless=true&s=819c316f5df2f6e981943a6aab25063a" alt="">
+          <h3 id="text4">Craighton Berman's advice for simple creative campaigns</h3>
+          <h5 class="text5">Filmmakers Jim Demonakos and Kevin Hanna are making a documentary about ‘Hellboy’ creator Mike Mignola.</h5>
+          <h6 class="text6">Read more</h6>
+        </div>
+       
+      </div>
+    </div>
 </body>
 </html>
 
