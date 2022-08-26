@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#pMainMRS{
+    border: 1px solid;
+    width: 80%;
+    margin: auto;
+    
+}
+#containerMRS{
+    border: 1px solid  red;
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+}
+#containerMRS>h1{
+    text-align: center;
+    font-weight: lighter;
+}
+#primMRS{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 24px;
+}
+#primMRS+p{
+    text-align: center;
+    font-size: 24px;
+}
+#helpMRS{
+    color: grey;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+#helpMRS+p{
+    color: grey;
+    font-size: 18px;
+    text-align: center;
+}
+#optionMRS{
+    border: 1px solid blue;
+}
