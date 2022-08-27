@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#pMainMRS{
+    border: 1px solid;
+    width: 80%;
+    margin: auto;
+    
+}
+#containerMRS{
+    border: 1px solid  red;
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+}
+#containerMRS>h1{
+    text-align: center;
+    font-weight: lighter;
+}
+#primMRS{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 24px;
+}
+#primMRS+p{
+    text-align: center;
+    font-size: 24px;
+}
+#helpMRS{
+    color: grey;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+#helpMRS+p{
+    color: grey;
+    font-size: 18px;
+    text-align: center;
+}
+#helpMRS+p+p{
+    color: grey;
+    font-size: 18px;
+    text-align: center;
+}
+#optionMRS{
+    border: 1px solid blue;
+    width: 80%;
+    margin: auto;
+    padding: 70px;
+}
+#logoMRS{
+
+    width: 35%;
+    margin: auto;
+}
+#logoMRS>img{
+    width: 40%;
+    display: block;
+    margin: auto;
+}
+#hrMRS{
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+}
+#numMRS{
+    font-size: 14px;
+}
+.selecMRS{
+    width: 280px;
+    height: 40px;
+    margin-left: 30px;
+    border-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#nexMRS{
+    width: 225px;
+    height: 45px;
+    display: block;
+    margin-top: 50px;
+    margin-left: 550px;
+    background-color: #464646;
+    color: white;
+    font-size: 14px;
+    border-color: transparent;
+    cursor: pointer;
+    text-decoration-line: none;
+}
+#nexMRS:hover{
+    background-color: black;
+}
+#subHrMRS{
+    width: 80%;
+    margin: auto;
+    border-color: whitesmoke;
+    margin-top: 50px;
+}
+#lastMRS{
+    border: 1px solid yellow;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    margin-top: 30px;
+}
+#locaMRS{
+    width: 200px;
+    height: 45px;
+    display: block;
+    margin-left: 520px;
+    background-color: #464646;
+    color: white;
+    font-size: 14px;
+    border-color: transparent;
+    cursor: pointer;
+    text-decoration-line: none;
+}
+#locaMRS:hover{
+    background-color: black;
+}
+#lastMRS>a{
+    color: grey;
+    text-decoration-line: none;
+}
+#noteMRS{
+    text-align: center;
+    font-size: 12px;
+    color: grey;
+    margin-top: 50px;
+}
+#countMRS{
+    width: 550px;
+    height: 50px;
+    margin-left: 30px;
+    font-size: 18px;
+}

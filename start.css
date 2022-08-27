@@ -1,0 +1,232 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#mainMRS{
+    width: 80%;
+    height: 1200px;
+    margin: auto;
+    margin-top: 50px;
+}
+#headingMRS{
+    width: 48%;
+    padding: 10px;
+    margin: auto;
+}
+#headingMRS>button{
+    width: 150px;
+    height: 45px;
+    background-color: #028858;
+    color: white;
+    border-color: transparent;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;  
+}
+#headingMRS>h1{
+    font-size: 48px;
+}
+#photoMRS{
+    margin-top: 50px;
+    display: flex;
+}
+#photoMRS>div{
+    width: 50%;
+    height: 50px;
+}
+#photo2MRS>div{
+    width: 95%;
+    margin-left: 33px;
+}
+#photo1MRS>img{
+    width: 100%;
+    height: 620px;
+}
+#subPic1MRS>img{
+    width: 95%;
+    height: 280px;
+    margin-left: 28px;
+}
+#subPic2MRS>img{
+    width: 95%;
+    height: 280px;
+    margin-left: 28px;
+}
+.paraMRS{
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    position: relative;
+    bottom: 60px;
+}
+.para2MRS{
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    position: relative;
+    left: 30px;
+    bottom: 80px;
+}
+#quoteMRS{
+    margin-top: 50px;
+    width: 100%;
+    background-color: #034752;
+}
+#headquoteMRS{
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 60px;
+    
+}
+#headquoteMRS>h1{
+    font-size: 44px;
+    font-weight: lighter;
+    color: white;
+}
+#subheadMRS{
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+}
+#subheadMRS>h1{
+    font-size: 14px;
+    color: white;
+}
+#anotherMainMRS{
+    width: 60%;
+    margin: auto;
+    margin-top: 80px;
+}
+#anotherMainMRS>h1{
+    font-size: 40px;
+    font-weight: lighter;
+}
+#gridMRS{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 50px;
+}
+/* #gridMRS>div{
+    border: 1px solid cyan;
+} */
+#gridMRS h1{
+    font-size: 28px;
+    font-weight: lighter;
+    width: 70%;
+}
+#gridMRS p{
+    font-size: 18px;
+}
+.paraextraMRS{
+    margin-top: 20px;
+}
+#videoMRS{
+    background-color: #282828;
+    margin-top: 60px;
+    padding: 100px;
+}
+#videoPlayM{
+    width: 80%;
+    height: 600px;
+    display: block;
+    margin: auto;
+}
+.moveParaM{
+    margin-top: 25px;
+}
+.numHeadM{
+    margin-top: 10px;
+}
+#lineMRS{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    border-color: black;
+}
+#thirdMainMRS{
+    width: 80%;
+    margin: auto;
+}
+#thirdMainMRS>h1{
+    width: 40%;
+}
+#simNavbarMRS{
+    width: 100%;
+    display: flex;
+    gap: 40px;
+}
+#simNavbarMRS>a{
+    text-decoration-line: none;
+    color: grey;
+    font-weight: 10px;
+}
+#simNavbarMRS>a:hover{
+    text-decoration-line: underline;
+    color: teal;
+    cursor: pointer;
+    font-size: 18px;
+}
+#fromMRS{
+    display: flex;
+    gap: 20px;
+    margin-top: 60px;
+}
+#intersMRS{
+    border: 1px solid;
+    width: 40%;
+    margin-left: 50px;
+    padding: 10px;
+}
+#backMRS{
+    width: 45%;
+    margin-top: 20px;
+}
+#backMRS>p{
+    font-size: 21px;
+}
+#intersMRS>a>button{
+    background-color: #464646;
+    width: 130px;
+    height: 40px;
+    margin-top: 20px;
+    color: white;
+    border-color: transparent;
+    cursor: pointer;
+}
+#helpMRS{
+    font-size: 12px;
+    margin-top: 10px;
+}
+#bottomMRS{
+    border: 1px solid;
+    width: 100%;
+    margin-top: 70px;
+    background-color: #ffbca9;
+}
+#bottomMRS>h1{
+    font-size: 48px;
+    margin: auto;
+    width: 60%;
+    margin-top: 60px;
+}
+#bottomMRS>p{
+    margin-top: 20px;
+    margin-left: 310px;
+}
+#bottomMRS>button{
+    background-color: #464646;
+    width: 140px;
+    height: 45px;
+    margin-top: 20px;
+    color: white;
+    border-color: transparent;
+    cursor: pointer;
+    margin-left: 310px;
+    margin-bottom: 70px;
+}
