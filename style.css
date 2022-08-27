@@ -1,0 +1,234 @@
+/*Google Font - Poppins*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box; 
+    font-family:'Poppins', sans-serif;
+    
+}
+body{
+    background-color: #f7f7f6;
+}
+.container{
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(255,230,213); */
+    column-gap: 30px;
+    
+}
+
+.form{
+    position: absolute;
+    max-width: 430px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 6px;
+    background: #fff;
+}
+.form.signup{
+    opacity: 0;
+    pointer-events: none;
+   
+}
+.forms.show-signup .form.signup{
+    opacity: 1;
+    pointer-events: auto;
+}
+.forms.show-signup .form.login{
+    opacity: 0;
+    pointer-events: none;
+}
+header{
+    font-size: 28px;
+    font-weight: 350;
+    color: #232836;
+}
+form{
+    margin-top: 10px;
+}
+.form .filed{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+.filed input,
+.filed button{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 6px;
+}
+.filed input{
+    outline: none;
+    padding: 0 15px;
+    border: 1px solid #cacaca;
+}
+.filed input:focus{
+    border-bottom-width: 2px;
+}
+.eye-icon{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #8b8b8b;
+    cursor: pointer;
+    /* border: 1px solid red; */
+    padding: 5px;
+}
+.filed button{
+    color: #fff;
+    background-color: #028858;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.filed button:hover{
+    background-color: #026543;
+}
+.form-link{
+    text-align: center;
+    margin-top: 10px;
+}
+.form-link span,
+.form-link a{
+    font-size: 14px;
+    font-weight: 400;
+    color: #232836;
+}
+.form a{
+    color: #0171d3;
+    text-decoration: none;
+}
+.form-content a:hover{
+    text-decoration: underline;
+}
+.line{
+    position: relative;
+    height: 1px;
+    width: 100%;
+    margin: 36px 0;
+    background-color: #d4d4d4;
+}
+
+.line::before{
+    content: 'Or';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    color: #232836;
+    padding: 0 15px;
+}
+
+.topline{
+    position: relative;
+    height: 1px;
+    width: 100%;
+    margin: 36px 0;
+    background-color: #d4d4d4;
+    margin-top: 25px;
+}
+.media-options a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a.facebook{
+    color: #fff;
+    background-color: #4267b2;
+}
+a.facebook .facebook-icon{
+    height: 28px;
+    width: 28px;
+    color: #0171d3;
+    font-size: 20px;
+    border-radius: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.facebook-icon,
+img.apple-img{
+    position: absolute;
+    top: 50%;
+    /* left: 15px; */
+    left: 55px;
+    transform: translateY(-50%);
+}
+img.apple-img{
+    height: 20px;
+    width: 20px;
+    object-fit: cover;
+    left: 90px;
+}
+a.apple{
+    border: 1px solid #cacaca;
+    background-color: #000000;
+    color: #fff;
+}
+a.apple span{
+    font-weight: 500;
+    /* opacity: 0.6; */
+    color: #fff;
+}
+
+@media screen and (max-width: 400px) {
+    .form{
+        padding: 15px 10px;
+    }
+}
+
+#para{
+    margin-top: 10px;
+    font-size: 13px;
+}
+#readmore{
+    font-size: 13px;
+    
+}
+#checkbox{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+#checkbox1{
+    display: flex;
+    gap: 10px;
+    margin-top: -5px;
+    /* font-size: 18px; */
+    
+}
+#checkbox1>p{
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+#checkbox2{
+    display: flex;
+    gap: 10px;
+    margin-top: -10px;
+}
+#checkbox2>p{
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+#privacy{
+    margin-top: 15px;
+    font-size: 13px;
+}
