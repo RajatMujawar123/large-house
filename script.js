@@ -26,3 +26,75 @@ links.forEach(link => {
         forms.classList.toggle("show-signup");
     })
 })
+
+
+function facebook(){
+    window.location.href="https://www.facebook.com/";
+}
+
+function apple(){
+    window.location.href="https://appleid.apple.com/sign-in";
+}
+
+let form=document.getElementById("form")
+userdata=JSON.parse(localStorage.getItem("userdata"))||[]
+form.addEventListener("submit",function(event){
+    event.preventDefault()
+    let data={
+        name:  form.name.value,
+        email:form.useremail.value,
+        pass: form.userpass.value,
+    }
+    if(checkemail(data.email)==true){
+        userdata.push(data);
+        localStorage.setItem("userdata",JSON.stringify(userdata))
+        alert("register sucessfull")
+    }else{
+        alert("Account already exist")
+    }
+})
+    function checkemail(email){
+        let filtered=userdata.filter(function(el){
+            return email==el.email
+        })
+        if(filtered.length>0){
+            return false;
+        }else{
+            return true;      
+        }
+    }
+
+
+
+
+//   Login Form  // 
+
+let form1=document.getElementById("form1")
+let userdata1=JSON.parse(localStorage.getItem("userdata"))||[]
+
+form1.addEventListener("submit",function(event){
+    event.preventDefault()
+    let data={  
+    email:form1.useremail.value,
+    pass:form1.userpass.value,
+    } 
+    if(checksignin(data.email,data.pass)==true){
+       
+        localStorage.setItem("signin",JSON.stringify(data))
+        alert("Sign in Successfull")
+        window.location.href="";
+    }else{
+        alert("Not yet Registered")
+    }
+})
+    function checksignin(email,pass){
+        let check=userdata1.filter(function(el){
+            return email==el.useremail && pass==el.userpass
+        })
+        if(check.length>0){
+            return false
+        }else{
+            return true
+        }
+    }
+

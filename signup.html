@@ -21,13 +21,13 @@
             <div class="form-content">
                 <header>Log in</header>
 
-                <form action="#">
+                <form action="#" id="form1">
                     <div class="filed input-filed">
-                        <input type="email" placeholder="Email" class="input">
+                        <input type="email" placeholder="Email" class="input" id="useremail">
                     </div>
 
                     <div class="filed input-filed">
-                        <input type="password" placeholder="Password" class="password">
+                        <input type="password" placeholder="Password" class="password" id="userpass">
 <!--hear we have inserted a font which act as img(hide pasword)-->
                         <i class='bx bx-hide eye-icon'></i>
                     </div>
@@ -35,9 +35,22 @@
                     <div class="form-link">
                         <a href="#" class="forgot-pass">Forgot passworf?</a>
                     </div>
+                    <!-- <div id="checkbox">
+                        <input type="checkbox" name="" id="">
+                        <p>Remember me</p>
+                    </div> -->
                     <div class="filed button-filed">
                         <button>Login</button>
                     </div>
+
+                    <div id="checkbox">
+                        <input type="checkbox" name="" id="">
+                        <p>Remember me</p>
+                    </div>
+<!-- #just try -->
+
+
+                    
                 </form>
 
                 <div class="form-link">
@@ -47,18 +60,24 @@
 
             <div class="line"></div>
 
-            <div class="media-options">
+            <div class="media-options" onclick="apple()">
+                <a href="#" class="filed apple">
+                    <img src="image/apple.jpg" alt="" class="apple-img">
+                    <span>Sign in with Apple</span>
+                </a>
+
+            <div class="media-options" onclick="facebook()">
                 <a href="#" class="filed facebook">
                     <i class='bx bxl-facebook facebook-icon'></i>
                     <span>Continue with Facebook</span>
                 </a>
             </div>
 
-            <div class="media-options">
+            <!-- <div class="media-options" onclick="apple()">
                 <a href="#" class="filed apple">
                     <img src="image/apple.jpg" alt="" class="apple-img">
                     <span>Sign in with Apple</span>
-                </a>
+                </a> -->
             </div>
             <p id="para">Get notified when your friends back and launch projects. We'll never post anything on Facebook without your permission.</p>
             <a id="readmore" href="#">Read more</a>
@@ -68,18 +87,24 @@
 
         <div class="form signup">
             <div class="form-content">
+                <div class="form-link" id="backtoLogin">
+                    <span>Have an account? <a href="#" class="link login-link">Login</a></span>
+                </div>
+
+                <div class="topline"></div>
+
                 <header>Signup</header>
-                <form action="#">
+                <form action="#" id="form">
                     <div class="filed input-filed">
-                        <input type="text" placeholder="Name" class="input">
+                        <input type="text" placeholder="Name" class="input" id="name">
                     </div>
 
                     <div class="filed input-filed">
-                        <input type="email" placeholder="Email" class="input">
+                        <input type="email" placeholder="Email" class="input" id="useremail">
                     </div>
 
                     <div class="filed input-filed">
-                        <input type="password" placeholder="Password" class="password">
+                        <input type="password" placeholder="Password" class="password" id="userpass">
                     </div>
 
                     <div class="filed input-filed">
@@ -88,14 +113,31 @@
                         <i class='bx bx-hide eye-icon'></i>
                     </div>
 
+                    <div id="checkbox1">
+                        <input type="checkbox" name="" id="">
+                        <p>Send me a weekly mix of handpicked projects, plus occasional Kickstarter news</p>
+                    </div>
+
+                    <div id="checkbox2">
+                        <input type="checkbox" name="" id="">
+                        <p>Contact me about participating in Kickstarter research</p>
+                    </div>
+
                     <div class="filed button-filed">
                         <button>Create account</button>
                     </div>
                 </form>
 
-                <div class="form-link">
-                    <span>New to Kickstarter? <a href="#" class="link login-link">Login</a></span>
+                <div id="privacy">
+                    By signing up, you agree to our
+                    <a href="https://www.kickstarter.com/privacy"> Privacy Policy, </a>
+                    <a href="https://www.kickstarter.com/cookies"> Cookie Policy</a>
+                    and <a href="https://www.kickstarter.com/terms-of-use"> Terms of Use.</a>
                 </div>
+
+                <!-- <div class="form-link">
+                    <span>Have an account? <a href="#" class="link login-link">Login</a></span>
+                </div> -->
             </div>
 
             <div class="line"></div>
@@ -113,6 +155,9 @@
                     <span>Sign in with Apple</span>
                 </a>
             </div>
+
+            
+            
         </div>
 
     </section>

@@ -6,15 +6,20 @@
     padding: 0;
     box-sizing:border-box; 
     font-family:'Poppins', sans-serif;
+    
+}
+body{
+    background-color: #f7f7f6;
 }
 .container{
-    height: 100vh;
+    height: 1000px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(255,230,213);
+    /* background-color: rgb(255,230,213); */
     column-gap: 30px;
+    
 }
 
 .form{
@@ -28,6 +33,7 @@
 .form.signup{
     opacity: 0;
     pointer-events: none;
+   
 }
 .forms.show-signup .form.signup{
     opacity: 1;
@@ -43,7 +49,7 @@ header{
     color: #232836;
 }
 form{
-    margin-top: 15px;
+    margin-top: 10px;
 }
 .form .filed{
     position: relative;
@@ -124,6 +130,15 @@ form{
     color: #232836;
     padding: 0 15px;
 }
+
+.topline{
+    position: relative;
+    height: 1px;
+    width: 100%;
+    margin: 36px 0;
+    background-color: #d4d4d4;
+    margin-top: 25px;
+}
 .media-options a{
     display: flex;
     align-items: center;
@@ -138,23 +153,26 @@ a.facebook .facebook-icon{
     width: 28px;
     color: #0171d3;
     font-size: 20px;
-    border-radius: 50%;
+    border-radius: 20%;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #fff;
 }
+
 .facebook-icon,
 img.apple-img{
     position: absolute;
     top: 50%;
-    left: 15px;
+    /* left: 15px; */
+    left: 55px;
     transform: translateY(-50%);
 }
 img.apple-img{
     height: 20px;
     width: 20px;
     object-fit: cover;
+    left: 90px;
 }
 a.apple{
     border: 1px solid #cacaca;
@@ -180,4 +198,37 @@ a.apple span{
 #readmore{
     font-size: 13px;
     
+}
+#checkbox{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+#checkbox1{
+    display: flex;
+    gap: 10px;
+    margin-top: -5px;
+    /* font-size: 18px; */
+    
+}
+#checkbox1>p{
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+#checkbox2{
+    display: flex;
+    gap: 10px;
+    margin-top: -10px;
+}
+#checkbox2>p{
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+#privacy{
+    margin-top: 15px;
+    font-size: 13px;
 }
