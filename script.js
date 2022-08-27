@@ -37,7 +37,7 @@ function apple(){
 }
 
 let form=document.getElementById("form")
-userdata=JSON.parse(localStorage.getItem("userdata"))||[]
+let userdata=JSON.parse(localStorage.getItem("userdata"))||[]
 form.addEventListener("submit",function(event){
     event.preventDefault()
     let data={
@@ -98,3 +98,10 @@ form1.addEventListener("submit",function(event){
         }
     }
 
+
+
+    import { navbar, footer } from "./import.js"
+
+    let nav=document.getElementById("navbar");
+    nav.innerHTML = navbar();
+    document.getElementById("footer").innerHTML = footer();

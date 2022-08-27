@@ -9,6 +9,8 @@
 
     <!--CSS-->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="footer.css">
 
     <!-- Boxing CSS-->
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
@@ -16,6 +18,7 @@
 </head>
 
 <body>
+    <div id="navbar"></div>
     <section class="container forms">
         <div class="form login">
             <div class="form-content">
@@ -28,7 +31,7 @@
 
                     <div class="filed input-filed">
                         <input type="password" placeholder="Password" class="password" id="userpass">
-<!--hear we have inserted a font which act as img(hide pasword)-->
+                        <!--hear we have inserted a font which act as img(hide pasword)-->
                         <i class='bx bx-hide eye-icon'></i>
                     </div>
 
@@ -47,10 +50,10 @@
                         <input type="checkbox" name="" id="">
                         <p>Remember me</p>
                     </div>
-<!-- #just try -->
+                    <!-- #just try -->
 
 
-                    
+
                 </form>
 
                 <div class="form-link">
@@ -66,24 +69,25 @@
                     <span>Sign in with Apple</span>
                 </a>
 
-            <div class="media-options" onclick="facebook()">
-                <a href="#" class="filed facebook">
-                    <i class='bx bxl-facebook facebook-icon'></i>
-                    <span>Continue with Facebook</span>
-                </a>
-            </div>
+                <div class="media-options" onclick="facebook()">
+                    <a href="#" class="filed facebook">
+                        <i class='bx bxl-facebook facebook-icon'></i>
+                        <span>Continue with Facebook</span>
+                    </a>
+                </div>
 
-            <!-- <div class="media-options" onclick="apple()">
+                <!-- <div class="media-options" onclick="apple()">
                 <a href="#" class="filed apple">
                     <img src="image/apple.jpg" alt="" class="apple-img">
                     <span>Sign in with Apple</span>
                 </a> -->
             </div>
-            <p id="para">Get notified when your friends back and launch projects. We'll never post anything on Facebook without your permission.</p>
+            <p id="para">Get notified when your friends back and launch projects. We'll never post anything on Facebook
+                without your permission.</p>
             <a id="readmore" href="#">Read more</a>
         </div>
 
-<!--Signup Form -->
+        <!--Signup Form -->
 
         <div class="form signup">
             <div class="form-content">
@@ -109,7 +113,7 @@
 
                     <div class="filed input-filed">
                         <input type="password" placeholder="Re-enter password" class="password">
-<!--hear we have inserted a font which act as img(hide pasword)-->
+                        <!--hear we have inserted a font which act as img(hide pasword)-->
                         <i class='bx bx-hide eye-icon'></i>
                     </div>
 
@@ -156,15 +160,23 @@
                 </a>
             </div>
 
-            
-            
+
+
         </div>
 
     </section>
-    
+
+    <div id="footer"></div>
+
 
     <!-- JavaScript -->
-    <script src="script.js"></script>
+
 </body>
 
 </html>
+
+<script type="module" src="script.js">
+
+
+    
+</script>
