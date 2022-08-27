@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="footer.css">
 <style>
   
 
@@ -13,6 +15,8 @@
 </head>
 <body>
 
+  <div id="navbar"></div>
+  <div id="navbar-2"></div>
 
     <!-- container-1 -->
     <div id="container-1">
@@ -538,11 +542,19 @@
        
       </div>
     </div>
+
+    <div id="footer"></div>
 </body>
 </html>
 
 
-<script>
+<script type="module">
+
+  import { navbar, navbar2, footer } from "./import.js"
+
+  document.getElementById("navbar").innerHTML=navbar();
+  document.getElementById("navbar-2").innerHTML=navbar2();
+  document.getElementById("footer").innerHTML=footer();
 
   "use strict";
   

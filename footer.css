@@ -1,13 +1,13 @@
-#sources{
+#sources {
     width: 100%;
     height: 60px;
     border: 1px solid transparent;
     border-bottom-color: grey;
-border-top-color:grey;
+    border-top-color: grey;
 }
 
 
-#sources>div{
+#sources>div {
     width: 70%;
     height: 60px;
     border: 1px solid transparent;
@@ -15,64 +15,67 @@ border-top-color:grey;
     display: flex;
     gap: 30px;
     justify-content: center;
+    align-items: center;
 
-   
 }
 
 
-a{
+a {
     text-decoration: none;
-    color:#282828;
+    color: #282828;
 }
 
 
-a:hover{
+a:hover {
 
     text-decoration: underline;
     color: teal;
-    
-    }
 
-    *{
-        font-family: "Maison Neue Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    
-    }
+}
 
-
-
-    #footer-1{
-        display: flex;
-        gap: 250px;
-        width: 100%;
-        padding-left: 250px;
-        padding-top: 50px;
-        margin-bottom: 40px;
-    }
+* {
+    font-family: "Maison Neue Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 
 
-  h3{
+
+#footer-1 {
+    display: flex;
+    gap: 250px;
+    width: 100%;
+    padding-left: 250px;
+    padding-top: 50px;
+    margin-bottom: 40px;
+}
+
+
+h3 {
     font-size: small;
-  }
+    margin-bottom: 10px;
+}
 
- #footer-2{
+#footer-2 {
     display: flex;
     gap: 30px;
- }
+}
 
 
- #footer-2>div:nth-child(1){
+#footer-2>div:nth-child(1) {
     gap: 20px;
     margin-right: 300px;
     margin-left: 80px;
- }
+}
 
-i{
+i {
     margin-right: 20px;
     cursor: pointer;
 }
 
 
-select{
+select {
     padding: 12px 12px 12px 10px;
     margin-right: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -81,23 +84,23 @@ select{
 }
 
 
-select:hover{
+select:hover {
     color: green;
-    
+
     border: 1px solid green;
 }
 
-#final{
+#final {
     width: 100%;
     height: 60px;
     border: 1px solid transparent;
     border-bottom-color: grey;
-border-top-color:grey;
-margin-top: 40px;
+    border-top-color: grey;
+    margin-top: 40px;
 }
 
 
-#final>div{
+#final>div {
     width: 70%;
     height: 60px;
     border: 1px solid transparent;
@@ -105,6 +108,6 @@ margin-top: 40px;
     display: flex;
     gap: 30px;
     justify-content: center;
+    align-items: center;
 
-   
 }
