@@ -5,457 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        /* universal css */
-        *{
-            margin: 0px;
-            padding: 0px;   
-            font-family: "Maison Neue Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
-        }
-
-        /* container-1 CSS */
-       #container-1{
-        border: solid transparent 1px;
-        width: 70%;
-        margin: auto;
-        margin-top: 20px;
-        text-align: center;
-       } 
-       #p1{
-        margin-top: 30px;
-        color: rgb(101,105,105);
-       }
-       #h11{
-        font-weight: 20;
-       }
-
-       /* container-2 CSS */
-       #container-2{
-        border: solid transparent 1px;
-        /* border: solid darkgray 0.5px; */
-        width: 90%;
-        height: 110px;
-        margin: auto;
-        margin-top: 20px;
-        display: flex;
-        justify-content: space-around;
-        /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
-        border-left: 0px;
-       }
-       .class-1{
-        border: solid transparent 1px;
-        width: 410px;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-         /* border-left: solid grey 1px;  */
-         box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-       }
-       
-       .p1{
-        margin-top: 10px;
-        color: #656969;
-        font-weight: 20;
-       }
-       .h-1{
-       color: #037362;
-       font-weight: 20;
-       }
-
-       /* Container-3 CSS */
-
-       #container-3{
-        border:solid transparent 1px ;
-        display: flex;
-        width: 90%;
-        height: 650px;
-        margin: auto;
-        margin-top: 20px;
-       }
-       #container-3-1{
-        border-bottom: solid grey 1px;
- }
-       .class-2{
-        border-right: solid grey 1px;
-        width: 55%;
-        height: 90%;
-        
-       }
-       .class-2-1{
-        width: 45%;
-       
-       }
-       #img-1{
-        width: 90%;
-        height: 55%;
-        margin-top: 20px;
-       }
-       #h1{
-        margin-top: 10px;
-        font-weight: 10;
-       }
-       #h1:hover{
-        color: #037362;
-        text-decoration: underline 2px;
-       }
-       #h3{
-        margin-top: 20px;
-       font-weight: 15;
-       width: 90%;
-       color: #282828;
-       }
-       #p2{
-        margin-top: 20px;
-        color: #656969;
-       }
-       #h4{
-        margin-top: 20px;
-        color: #656969;
-        font-weight: 20;
-       }
-       #h5{
-        margin-top: 20px;
-        margin-left: 50px;
-        color: #656969;
-        font-weight: 20;
-      }
-      #innerdiv{
-        cursor: pointer;
-        border: transparent solid 1px;
-      }
-      #innerdiv2{
-        border: transparent solid 1px;
-        height: 400px;
-        display: flex;
-      }
-    
-      .img2{
-        width: 35%;
-        height: 90px;
-      
-      }
-      .c1{
-        display: flex;
-        border-bottom:  rgb(156 163 175) solid 1px;
-        height: 33.33%;
-        width: 80%;
-        align-items: center;
-        margin-left: 50px;
-        
-      }
-      .innerdiv3{
-        border: solid transparent 1px;
-        width: 100%;
-      }
-      #text{
-        margin-left: 20px;
-        display: flex;
-        flex-direction: column;
-        gap: 5px;
-        margin-top: 0px;
-        border: solid transparent 1px;
-        width: 100%;
-      }
-      .p3{
-        color: #037362;
-      }
-      .p4:hover{
-        color: #037362;
-        text-decoration: underline 1px;
-        cursor: pointer;
-      }
-      .p5{
-        cursor: pointer;
-        color: #656969;
-        font-weight: 20;
-        font-size: 12px;
-      }
-      .logo{
-        border: solid transparent 1px;
-        display: flex;
-        gap: 10px;
-      
-      }
-      .logo1{
-        border :solid 1px black; 
-        width: 18px;
-        height: 50%;
-        border-radius: 10px;
-        text-align: center;
-      }
-      .logo1:hover{
-        cursor: pointer;
-        width: 20px;
-        transition: .5s;
-      }
-      .logo1>img{
-        width: 70%;
-        height: 70%;
-      }
-
-
-      /* pagination */
-     .pagination {
-  margin-top: 30px;
-   display: flex; 
-  justify-content: flex-end;
-  margin-right: 45px;
-}
-
-.pagination a {
-  color: blue;
-  float: left;
-  padding: 8px 10px;
-  text-decoration: none;
-}
-
-/* Container-4 */
- #container-4{
-    margin: auto;
-    border: solid transparent 1px;
-    
-    height: 400px;
-    display: flex;
-    width: 90%;
-    gap: 20px;
-    align-items: center;
- }
- #cont1{
-    border: solid transparent 1px;
-    width: 50%;
-    height: 60%;
-    cursor: pointer;
- }
- #cont2{
-    border-left: solid  #037362 6px;
-    width: 50%;
-    height: 50%;
-    margin-top: -40px;
-    cursor: pointer;
- }
- #img3{
-    width: 100%;
-    height: 100%;
- }
-#p6{
-  margin-top: 50px;
-  margin-left: -6px;
-}
-#p7{
-margin-top: -5px;
-margin-left: 20px;
-font-weight: 20;
-}
-#p7:hover{
-  color: #037362;
-   text-decoration: underline 1px;
+    <link rel="stylesheet" href="/index.css">
+<style>
   
-}
-#p8{
-  margin-top: 10px;
-  margin-left: 20px;
-  line-height: 25px;
-  font-size: 20px;
-}
-#container-4-1{
-  border-bottom: solid grey 1px;
-  margin-top: 30px;
-}
-/* Container 5 */
-#container-5{
-  border: solid red 1px;
-  height: 300px;
-  width: 90%;
-  margin: auto;
-  margin-top: 30px;
-}
 
- /* Container 6 */
- #container-6{
-  margin: auto;
-  border: solid transparent 1px;
-  margin-top: 20px;
-  width: 90%;
-  height: 500px;
-  display:grid;
-  grid-template-columns: repeat(4,1fr);
-  grid-template-rows:repeat(1,450px);
-  gap: 20px;
-
-}
-.cont-6-1{
-  border: solid transparent 1px;
-  cursor: pointer;
-}
-.cont-6-1:hover{
-  color: #037362;
-  text-decoration: underline 1px;
-}
-
-#container-6-1{
-  margin: auto;
-  border-bottom:  rgb(156 163 175) solid 1px;
-  height: 600px;
-
-}
-#p9{
-  margin-top: 50px;
-  margin-left: 67px;
-  font-size: 12px;
-  color: #656969;
-   font-weight: bold;
-}
-.cont-6-1>img{
-  width: 100%;
- height: 80%;
-}
-#text3{
-  margin-top: 15px;
-  font-weight: 10;
- 
-}
-
-/* Container -8 */
-#container-8{
-  margin: auto;
-  border: solid transparent 1px;
-  margin-top: 20px;
-  width: 90%;
-  height: 600px;
-  display:grid;
-  grid-template-columns: repeat(4,1fr);
-  grid-template-rows:repeat(1,600px);
-  gap: 20px;
-}
-#container-8>div{
-  border: solid transparent 1px;
-  cursor: pointer;
-}
-.cont-1-1{
-  border: solid transparent 1px;
-}
-#container-8-1{
-  margin: auto;
-  border-bottom:  rgb(156 163 175) solid 1px;
-  height: 670px;
-/* border: solid transparent 1px; */
-}
-#p9{
-  margin-top: 50px;
-  margin-left: 67px;
-  font-size: 12px;
-  color: #656969;
-   font-weight: bold;
-}
-.cont-8-1>img{
-  width: 100%;
- height: 60%;
-}
-#text4{
-  margin-top: 15px;
-  font-weight: 10;
-}
-#text4:hover{
-  color: #037362;
-  text-decoration: underline 1px;
-}
-.text5{
-  margin-top: 15px;
-    color: #282828;
-    line-height: 18px;
-    font-weight: 10;
-}
-.text5:hover{
-  color: #037362;
- color: #037362;
-  text-decoration: underline 1px;
-}
-.text6{
-  margin-top: 20px;
-  color: #656969;
-}
-.text6:hover{
-  text-decoration: underline 1px;
-}
-
-/* container 9 */
-#container-9{
-  margin: auto;
-  border-bottom:   rgb(156 163 175) solid 1px;
-  height: 700px;
-  display: flex;
-  flex-direction: column;
-}
-#cont9-1{
-  margin: auto;
-  border: solid transparent 1px;
-  width: 90%;
-  height: 80%;
-  align-items: center;
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  grid-template-rows: auto;
-  gap: 40px;
-}
-.cont9-2{
-  /* border: solid red 1px; */
- height: 230px;
- display: flex;
- gap: 20px;
- align-items: center;
- box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-}
-#cont9-3{
-  border: solid transparent 1px;
-  width: 30%;
-  height: 80%;
-  margin-left: 20px;
-  cursor: pointer;
-}
-#cont9-4{
-  border: solid transparent 1px;
-  width: 60%;
-  height: 80%;
-  cursor: pointer;
- 
-}
-.img9{
-width: 100%;
-height:100%;
-}
-.text11{
-  font-weight: 20;
-  font-family: "Maison Neue Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 20px
-}
-.text11:hover{
-  text-decoration-line: underline;
-}
-.text12{
-  margin-top: 20px;
-  line-height: 25px;
-  width: 340px;
-  color: #282828
-}
-#cont9-5{
-  border: solid transparent 1px;
- height: 70%;
-}
-.text13{
-  margin-top: 30px;
-   color: #5555FF; 
-   fill: #5555FF; 
-}
-#t1{
-  border: solid transparent 1px;
-}
-
-    
-    </style>
+</style>
 </head>
 <body>
+
+
     <!-- container-1 -->
     <div id="container-1">
         <h1 id="h11" >Bring a creative project to life.</h1>
@@ -578,7 +136,116 @@ height:100%;
       </div>
      
       <!-- container-5 -->
-      <div id="container-5"></div>
+      <div id="slidecont">
+
+        <div id="fresh"> 
+            <div id="fresh2">
+                <h3>FRESH FAVORITES</h3>
+        <p>Discover more </p>
+            </div>
+            <div id="fresh3">
+                <button id="btn" class="ctrl-btn pro-prev" ><i class="arrow left"></i></button>
+                <button id="btn" class="ctrl-btn pro-next"><i class="arrow right"></i></button>
+            </div>
+    
+        </div> 
+    <div class="slider" id="slider">
+        <div class="slide" id="slide">
+
+          <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/038/181/967/d17442835801ae596c0bde2f4909ffbf_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1659676148&auto=format&frame=1&q=92&s=bbe6b88361ef1d336d6674276c3de017"> 
+            <h3 class="an">プラントピア｜Plantopia - An Original Figure & Anime Project</h3>
+            <p>LAM、くっか、九岡望によるオリジナルフィギュア＆アニメプロジェクト｜An Original figure and animation project by LAM, Kukka, and Nozomu Kuoka</p>
+            <p class="by">By Plantopia partners</p>
+        </div>
+
+        <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/038/385/467/21b9ccf5e880c1575f1f1ecba9b8ba05_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1661409512&auto=format&frame=1&q=92&s=9b484a15011e4afac09611907ec8a6f4"> 
+            <h3>Vesta Silk-filled Duvet 2.0: Sleep Better with Smart Fabrics</h3>
+            <p>Vesta Silk-filled Duvet 2.0: Sleep Better with Smart Fabrics</p>
+            <p class="by">By Plantopia partners</p>
+        </div>
+
+        <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/038/391/440/fddcf72b47f846ac13b699d1fca0cd63_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1661454458&auto=format&frame=1&q=92&s=cbb25b843db8866c251753aa1cc5c38e"> 
+            <h3>Zenescope's Horror Boxed Set</h3>
+            <p>Collects three of our most terrifying Graphic Novels including the Debut Release of Devil's Road!</p>
+            <p class="by">By Plantopia partners</p>
+        </div>
+
+        <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/038/298/665/dac3f87db3e059305a6ad171d76997d4_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1660680838&auto=format&frame=1&q=92&s=e3544d590a6e404488e8e3cfc64c21dd"> 
+            <h3>Victoriocity Season 3: Truth and Claw</h3>
+            <p>A brand new mystery from Victoriocity, the sci-fi detective thriller comedy fiction podcast</p>
+            <p class="by">By Plantopia partners</p>
+        </div>
+
+        <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/038/358/017/1f1a73a1d02fdc5df998e4031c8ee1e4_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1661193971&auto=format&frame=1&q=92&s=0936bfd15c1bd6c274a4e4f371b02f40"> 
+            <h3>The Paintings of The Mincing Mockingbird Volume 5: Art Book</h3>
+            <p>A hardcover art book featuring bird paintings and their non sequitur titles by artist Matt Adrian, AKA The Mincing Mockingbird</p>
+            <p class="by">By Plantopia partners</p>
+        </div>
+
+        <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/036/665/709/122041ed4e7d37e267d067d6e2ad6669_original.png?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1647364548&auto=format&frame=1&q=92&s=b3fa156dbba450767dfd87d2da2101e8"> 
+            <h3> An Original Figure & Anime Project</h3>
+            <p>A brand new mystery from Victoriocity, the sci-fi detective thriller comedy fiction podcast</p>
+            <p class="by">By Plantopia partners</p>
+        </div>
+
+        <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/038/393/081/2e44ae21eb45a1c89e6710e5dc4c08c2_original.png?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1661467972&auto=format&frame=1&q=92&s=1d56e07d6302549a2489088b0b9af3c8"> 
+            <h3>An Original Figure & Anime Project</h3>
+            <p> and their non sequitur titles by artistinto the lives of Kathy & Bill Magee, the founders of the charity, Operation Smile.</p>
+            <p class="by">By Plantopia partners</p>
+        </div>
+
+        <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/038/383/078/ac2569dc09677f1cbd03fd6ce4a568aa_original.png?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1661388031&auto=format&frame=1&q=92&s=432441e1b06e891cf9ae74ae1be3e0b0"> 
+            <h3> An Original Figure & Anime Project</h3>
+            <p>LAM、くっか、九岡望によるオリジナルフィギュア＆アニメプロジェクト｜An Original figure and animation project by LAM, Kukka, and Nozomu Kuoka</p>
+            <p class="by">By Plantopia partners</p>
+        </div>
+
+        <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/038/401/339/06fa50ebc108a6aee8df19d94aa2cd6e_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1661541073&auto=format&frame=1&q=92&s=f884846ef15dfe45f7f1e5c5c47946e1"> 
+            <h3>An Original Figure & Anime Project</h3>
+            <p>An Original figure and animation project by LAM, Kukka, and Nozomu Kuoka</p>
+            <p class="by">By Plantopia partners</p>
+        </div>
+
+        <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/038/189/258/51bae9bbd383b02cd61877001d57620a_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1659728114&auto=format&frame=1&q=92&s=520a11e7883cd9551b1c365ff1d6ce86"> 
+            <h3>An Original Figure & Anime Project</h3>
+            <p>An Original figure and animation project by LAM, Kukka, and Nozomu Kuoka</p>
+            <p class="by">By Plantopia partners</p>
+        </div>
+
+        <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/037/271/992/a7e2b59618b1989b204f215b97495278_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1652292424&auto=format&frame=1&q=92&s=6154a7d76b9fabdca9004ceaa485b1b3"> 
+            <h3>Plantopia - An Original Figure & Anime Project</h3>
+            <p>An Original figure and animation project by LAM, Kukka, and Nozomu Kuoka</p>
+            <p class="by">By Plantopia partners</p>
+        </div>
+
+        <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/038/298/195/a60df37129f372e37b7d6bf21b8e4018_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1660678375&auto=format&frame=1&q=92&s=ab79817969ded6025c4d7da79d724717"> 
+            <h3>Plantopia - An Original Figure & Anime Project</h3>
+            <p>An Original figure and animation project by LAM, Kukka, and Nozomu Kuoka</p>
+            <p class="by">By Plantopia partners</p>
+        </div>
+
+        <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/038/368/086/41e5f512ae7e43281111287bafde3974_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1661272961&auto=format&frame=1&q=92&s=e82bef9417986b92ddcecbbb357a7bcd"> 
+            <h3>An Original Figure & Anime Project</h3>
+            <p>An Original figure and animation project by LAM, Kukka, and Nozomu Kuoka</p>
+            <p class="by">By Plantopia partners</p>
+        </div>
+
+        <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/038/359/401/945478727a9d49795db7df693b37d609_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1661204217&auto=format&frame=1&q=92&s=b71253520af342c70d29d02c36f914bc"> 
+            <h3>An Original Figure & Anime Project</h3>
+            <p>An Original figure and animation project by LAM, Kukka, and Nozomu Kuoka</p>
+            <p class="by">By Plantopia partners</p>
+        </div>
+
+        <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/038/155/137/f2189b9c3ced7decca3b610df56de9eb_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1659470884&auto=format&frame=1&q=92&s=7c6754b9090ca1037fc54c8c71022c55"> 
+            <h3> An Original Figure & Anime Project</h3>
+            <p>An Original figure and animation project by LAM, Kukka, and Nozomu Kuoka</p>
+            <p class="by">By Plantopia partners</p>
+        </div>
+        </div>
+        <!-- <button class="ctrl-btn pro-prev" ><i class="arrow left"></i></button>
+        <button class="ctrl-btn pro-next"><i class="arrow right"></i></button> -->
+      </div>
+    </div>
       
 
       <!-- ********* -->
@@ -599,7 +266,116 @@ height:100%;
       </div>
 
       <!-- ********** -->
-      <div id="container-5"></div>
+      <div id="slidecont">
+
+        <div id="fresh"> 
+            <div id="fresh2">
+                <h3>FRESH FAVORITES</h3>
+        <p>Discover more </p>
+            </div>
+            <div id="fresh3">
+                <button id="btn" class="ctrl-btn pro-prev" ><i class="arrow left"></i></button>
+                <button id="btn" class="ctrl-btn pro-next"><i class="arrow right"></i></button>
+            </div>
+    
+        </div> 
+    <div class="slider" id="slider">
+        <div class="slide" id="slide">
+
+          <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/038/181/967/d17442835801ae596c0bde2f4909ffbf_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1659676148&auto=format&frame=1&q=92&s=bbe6b88361ef1d336d6674276c3de017"> 
+            <h3 class="an">プラントピア｜Plantopia - An Original Figure & Anime Project</h3>
+            <p>LAM、くっか、九岡望によるオリジナルフィギュア＆アニメプロジェクト｜An Original figure and animation project by LAM, Kukka, and Nozomu Kuoka</p>
+            <p class="by">By Plantopia partners</p>
+        </div>
+
+        <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/038/385/467/21b9ccf5e880c1575f1f1ecba9b8ba05_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1661409512&auto=format&frame=1&q=92&s=9b484a15011e4afac09611907ec8a6f4"> 
+            <h3>Vesta Silk-filled Duvet 2.0: Sleep Better with Smart Fabrics</h3>
+            <p>Vesta Silk-filled Duvet 2.0: Sleep Better with Smart Fabrics</p>
+            <p class="by">By Plantopia partners</p>
+        </div>
+
+        <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/038/391/440/fddcf72b47f846ac13b699d1fca0cd63_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1661454458&auto=format&frame=1&q=92&s=cbb25b843db8866c251753aa1cc5c38e"> 
+            <h3>Zenescope's Horror Boxed Set</h3>
+            <p>Collects three of our most terrifying Graphic Novels including the Debut Release of Devil's Road!</p>
+            <p class="by">By Plantopia partners</p>
+        </div>
+
+        <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/038/298/665/dac3f87db3e059305a6ad171d76997d4_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1660680838&auto=format&frame=1&q=92&s=e3544d590a6e404488e8e3cfc64c21dd"> 
+            <h3>Victoriocity Season 3: Truth and Claw</h3>
+            <p>A brand new mystery from Victoriocity, the sci-fi detective thriller comedy fiction podcast</p>
+            <p class="by">By Plantopia partners</p>
+        </div>
+
+        <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/038/358/017/1f1a73a1d02fdc5df998e4031c8ee1e4_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1661193971&auto=format&frame=1&q=92&s=0936bfd15c1bd6c274a4e4f371b02f40"> 
+            <h3>The Paintings of The Mincing Mockingbird Volume 5: Art Book</h3>
+            <p>A hardcover art book featuring bird paintings and their non sequitur titles by artist Matt Adrian, AKA The Mincing Mockingbird</p>
+            <p class="by">By Plantopia partners</p>
+        </div>
+
+        <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/036/665/709/122041ed4e7d37e267d067d6e2ad6669_original.png?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1647364548&auto=format&frame=1&q=92&s=b3fa156dbba450767dfd87d2da2101e8"> 
+            <h3> An Original Figure & Anime Project</h3>
+            <p>A brand new mystery from Victoriocity, the sci-fi detective thriller comedy fiction podcast</p>
+            <p class="by">By Plantopia partners</p>
+        </div>
+
+        <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/038/393/081/2e44ae21eb45a1c89e6710e5dc4c08c2_original.png?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1661467972&auto=format&frame=1&q=92&s=1d56e07d6302549a2489088b0b9af3c8"> 
+            <h3>An Original Figure & Anime Project</h3>
+            <p> and their non sequitur titles by artistinto the lives of Kathy & Bill Magee, the founders of the charity, Operation Smile.</p>
+            <p class="by">By Plantopia partners</p>
+        </div>
+
+        <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/038/383/078/ac2569dc09677f1cbd03fd6ce4a568aa_original.png?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1661388031&auto=format&frame=1&q=92&s=432441e1b06e891cf9ae74ae1be3e0b0"> 
+            <h3> An Original Figure & Anime Project</h3>
+            <p>LAM、くっか、九岡望によるオリジナルフィギュア＆アニメプロジェクト｜An Original figure and animation project by LAM, Kukka, and Nozomu Kuoka</p>
+            <p class="by">By Plantopia partners</p>
+        </div>
+
+        <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/038/401/339/06fa50ebc108a6aee8df19d94aa2cd6e_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1661541073&auto=format&frame=1&q=92&s=f884846ef15dfe45f7f1e5c5c47946e1"> 
+            <h3>An Original Figure & Anime Project</h3>
+            <p>An Original figure and animation project by LAM, Kukka, and Nozomu Kuoka</p>
+            <p class="by">By Plantopia partners</p>
+        </div>
+
+        <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/038/189/258/51bae9bbd383b02cd61877001d57620a_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1659728114&auto=format&frame=1&q=92&s=520a11e7883cd9551b1c365ff1d6ce86"> 
+            <h3>An Original Figure & Anime Project</h3>
+            <p>An Original figure and animation project by LAM, Kukka, and Nozomu Kuoka</p>
+            <p class="by">By Plantopia partners</p>
+        </div>
+
+        <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/037/271/992/a7e2b59618b1989b204f215b97495278_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1652292424&auto=format&frame=1&q=92&s=6154a7d76b9fabdca9004ceaa485b1b3"> 
+            <h3>Plantopia - An Original Figure & Anime Project</h3>
+            <p>An Original figure and animation project by LAM, Kukka, and Nozomu Kuoka</p>
+            <p class="by">By Plantopia partners</p>
+        </div>
+
+        <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/038/298/195/a60df37129f372e37b7d6bf21b8e4018_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1660678375&auto=format&frame=1&q=92&s=ab79817969ded6025c4d7da79d724717"> 
+            <h3>Plantopia - An Original Figure & Anime Project</h3>
+            <p>An Original figure and animation project by LAM, Kukka, and Nozomu Kuoka</p>
+            <p class="by">By Plantopia partners</p>
+        </div>
+
+        <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/038/368/086/41e5f512ae7e43281111287bafde3974_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1661272961&auto=format&frame=1&q=92&s=e82bef9417986b92ddcecbbb357a7bcd"> 
+            <h3>An Original Figure & Anime Project</h3>
+            <p>An Original figure and animation project by LAM, Kukka, and Nozomu Kuoka</p>
+            <p class="by">By Plantopia partners</p>
+        </div>
+
+        <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/038/359/401/945478727a9d49795db7df693b37d609_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1661204217&auto=format&frame=1&q=92&s=b71253520af342c70d29d02c36f914bc"> 
+            <h3>An Original Figure & Anime Project</h3>
+            <p>An Original figure and animation project by LAM, Kukka, and Nozomu Kuoka</p>
+            <p class="by">By Plantopia partners</p>
+        </div>
+
+        <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/038/155/137/f2189b9c3ced7decca3b610df56de9eb_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1659470884&auto=format&frame=1&q=92&s=7c6754b9090ca1037fc54c8c71022c55"> 
+            <h3> An Original Figure & Anime Project</h3>
+            <p>An Original figure and animation project by LAM, Kukka, and Nozomu Kuoka</p>
+            <p class="by">By Plantopia partners</p>
+        </div>
+        </div>
+        <!-- <button class="ctrl-btn pro-prev" ><i class="arrow left"></i></button>
+        <button class="ctrl-btn pro-next"><i class="arrow right"></i></button> -->
+      </div>
+    </div>
 
       <!-- *********** -->
       <div id="container-4-1">
@@ -620,7 +396,118 @@ height:100%;
       </div>
 
        <!-- ********** -->
-       <div id="container-5"></div>
+       <div id="slidecont">
+
+        <div id="fresh"> 
+            <div id="fresh2">
+                <h3>FRESH FAVORITES</h3>
+        <p>Discover more </p>
+            </div>
+            <div id="fresh3">
+                <button id="btn" class="ctrl-btn pro-prev" ><i class="arrow left"></i></button>
+                <button id="btn" class="ctrl-btn pro-next"><i class="arrow right"></i></button>
+            </div>
+    
+        </div> 
+    <div class="slider" id="slider">
+        <div class="slide" id="slide">
+
+          <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/038/181/967/d17442835801ae596c0bde2f4909ffbf_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1659676148&auto=format&frame=1&q=92&s=bbe6b88361ef1d336d6674276c3de017"> 
+            <h3 class="an">プラントピア｜Plantopia - An Original Figure & Anime Project</h3>
+            <p>LAM、くっか、九岡望によるオリジナルフィギュア＆アニメプロジェクト｜An Original figure and animation project by LAM, Kukka, and Nozomu Kuoka</p>
+            <p class="by">By Plantopia partners</p>
+        </div>
+
+        <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/038/385/467/21b9ccf5e880c1575f1f1ecba9b8ba05_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1661409512&auto=format&frame=1&q=92&s=9b484a15011e4afac09611907ec8a6f4"> 
+            <h3>Vesta Silk-filled Duvet 2.0: Sleep Better with Smart Fabrics</h3>
+            <p>Vesta Silk-filled Duvet 2.0: Sleep Better with Smart Fabrics</p>
+            <p class="by">By Plantopia partners</p>
+        </div>
+
+        <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/038/391/440/fddcf72b47f846ac13b699d1fca0cd63_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1661454458&auto=format&frame=1&q=92&s=cbb25b843db8866c251753aa1cc5c38e"> 
+            <h3>Zenescope's Horror Boxed Set</h3>
+            <p>Collects three of our most terrifying Graphic Novels including the Debut Release of Devil's Road!</p>
+            <p class="by">By Plantopia partners</p>
+        </div>
+
+        <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/038/298/665/dac3f87db3e059305a6ad171d76997d4_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1660680838&auto=format&frame=1&q=92&s=e3544d590a6e404488e8e3cfc64c21dd"> 
+            <h3>Victoriocity Season 3: Truth and Claw</h3>
+            <p>A brand new mystery from Victoriocity, the sci-fi detective thriller comedy fiction podcast</p>
+            <p class="by">By Plantopia partners</p>
+        </div>
+
+        <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/038/358/017/1f1a73a1d02fdc5df998e4031c8ee1e4_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1661193971&auto=format&frame=1&q=92&s=0936bfd15c1bd6c274a4e4f371b02f40"> 
+            <h3>The Paintings of The Mincing Mockingbird Volume 5: Art Book</h3>
+            <p>A hardcover art book featuring bird paintings and their non sequitur titles by artist Matt Adrian, AKA The Mincing Mockingbird</p>
+            <p class="by">By Plantopia partners</p>
+        </div>
+
+        <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/036/665/709/122041ed4e7d37e267d067d6e2ad6669_original.png?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1647364548&auto=format&frame=1&q=92&s=b3fa156dbba450767dfd87d2da2101e8"> 
+            <h3> An Original Figure & Anime Project</h3>
+            <p>A brand new mystery from Victoriocity, the sci-fi detective thriller comedy fiction podcast</p>
+            <p class="by">By Plantopia partners</p>
+        </div>
+
+        <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/038/393/081/2e44ae21eb45a1c89e6710e5dc4c08c2_original.png?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1661467972&auto=format&frame=1&q=92&s=1d56e07d6302549a2489088b0b9af3c8"> 
+            <h3>An Original Figure & Anime Project</h3>
+            <p> and their non sequitur titles by artistinto the lives of Kathy & Bill Magee, the founders of the charity, Operation Smile.</p>
+            <p class="by">By Plantopia partners</p>
+        </div>
+
+        <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/038/383/078/ac2569dc09677f1cbd03fd6ce4a568aa_original.png?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1661388031&auto=format&frame=1&q=92&s=432441e1b06e891cf9ae74ae1be3e0b0"> 
+            <h3> An Original Figure & Anime Project</h3>
+            <p>LAM、くっか、九岡望によるオリジナルフィギュア＆アニメプロジェクト｜An Original figure and animation project by LAM, Kukka, and Nozomu Kuoka</p>
+            <p class="by">By Plantopia partners</p>
+        </div>
+
+        <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/038/401/339/06fa50ebc108a6aee8df19d94aa2cd6e_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1661541073&auto=format&frame=1&q=92&s=f884846ef15dfe45f7f1e5c5c47946e1"> 
+            <h3>An Original Figure & Anime Project</h3>
+            <p>An Original figure and animation project by LAM, Kukka, and Nozomu Kuoka</p>
+            <p class="by">By Plantopia partners</p>
+        </div>
+
+        <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/038/189/258/51bae9bbd383b02cd61877001d57620a_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1659728114&auto=format&frame=1&q=92&s=520a11e7883cd9551b1c365ff1d6ce86"> 
+            <h3>An Original Figure & Anime Project</h3>
+            <p>An Original figure and animation project by LAM, Kukka, and Nozomu Kuoka</p>
+            <p class="by">By Plantopia partners</p>
+        </div>
+
+        <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/037/271/992/a7e2b59618b1989b204f215b97495278_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1652292424&auto=format&frame=1&q=92&s=6154a7d76b9fabdca9004ceaa485b1b3"> 
+            <h3>Plantopia - An Original Figure & Anime Project</h3>
+            <p>An Original figure and animation project by LAM, Kukka, and Nozomu Kuoka</p>
+            <p class="by">By Plantopia partners</p>
+        </div>
+
+        <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/038/298/195/a60df37129f372e37b7d6bf21b8e4018_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1660678375&auto=format&frame=1&q=92&s=ab79817969ded6025c4d7da79d724717"> 
+            <h3>Plantopia - An Original Figure & Anime Project</h3>
+            <p>An Original figure and animation project by LAM, Kukka, and Nozomu Kuoka</p>
+            <p class="by">By Plantopia partners</p>
+        </div>
+
+        <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/038/368/086/41e5f512ae7e43281111287bafde3974_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1661272961&auto=format&frame=1&q=92&s=e82bef9417986b92ddcecbbb357a7bcd"> 
+            <h3>An Original Figure & Anime Project</h3>
+            <p>An Original figure and animation project by LAM, Kukka, and Nozomu Kuoka</p>
+            <p class="by">By Plantopia partners</p>
+        </div>
+
+        <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/038/359/401/945478727a9d49795db7df693b37d609_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1661204217&auto=format&frame=1&q=92&s=b71253520af342c70d29d02c36f914bc"> 
+            <h3>An Original Figure & Anime Project</h3>
+            <p>An Original figure and animation project by LAM, Kukka, and Nozomu Kuoka</p>
+            <p class="by">By Plantopia partners</p>
+        </div>
+
+        <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/038/155/137/f2189b9c3ced7decca3b610df56de9eb_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1659470884&auto=format&frame=1&q=92&s=7c6754b9090ca1037fc54c8c71022c55"> 
+            <h3> An Original Figure & Anime Project</h3>
+            <p>An Original figure and animation project by LAM, Kukka, and Nozomu Kuoka</p>
+            <p class="by">By Plantopia partners</p>
+        </div>
+        </div>
+        <!-- <button class="ctrl-btn pro-prev" ><i class="arrow left"></i></button>
+        <button class="ctrl-btn pro-next"><i class="arrow right"></i></button> -->
+      </div>
+    </div>
+
+
 
          <!-- *********** -->
       <div id="container-4-1">
@@ -686,7 +573,117 @@ height:100%;
       </div>
 
          <!-- ********** -->
-         <div id="container-5"></div>
+         <div id="slidecont">
+
+          <div id="fresh"> 
+              <div id="fresh2">
+                  <h3>FRESH FAVORITES</h3>
+          <p>Discover more </p>
+              </div>
+              <div id="fresh3">
+                  <button id="btn" class="ctrl-btn pro-prev" ><i class="arrow left"></i></button>
+                  <button id="btn" class="ctrl-btn pro-next"><i class="arrow right"></i></button>
+              </div>
+      
+          </div> 
+      <div class="slider" id="slider">
+          <div class="slide" id="slide">
+  
+            <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/038/181/967/d17442835801ae596c0bde2f4909ffbf_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1659676148&auto=format&frame=1&q=92&s=bbe6b88361ef1d336d6674276c3de017"> 
+              <h3 class="an">プラントピア｜Plantopia - An Original Figure & Anime Project</h3>
+              <p>LAM、くっか、九岡望によるオリジナルフィギュア＆アニメプロジェクト｜An Original figure and animation project by LAM, Kukka, and Nozomu Kuoka</p>
+              <p class="by">By Plantopia partners</p>
+          </div>
+  
+          <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/038/385/467/21b9ccf5e880c1575f1f1ecba9b8ba05_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1661409512&auto=format&frame=1&q=92&s=9b484a15011e4afac09611907ec8a6f4"> 
+              <h3>Vesta Silk-filled Duvet 2.0: Sleep Better with Smart Fabrics</h3>
+              <p>Vesta Silk-filled Duvet 2.0: Sleep Better with Smart Fabrics</p>
+              <p class="by">By Plantopia partners</p>
+          </div>
+  
+          <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/038/391/440/fddcf72b47f846ac13b699d1fca0cd63_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1661454458&auto=format&frame=1&q=92&s=cbb25b843db8866c251753aa1cc5c38e"> 
+              <h3>Zenescope's Horror Boxed Set</h3>
+              <p>Collects three of our most terrifying Graphic Novels including the Debut Release of Devil's Road!</p>
+              <p class="by">By Plantopia partners</p>
+          </div>
+  
+          <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/038/298/665/dac3f87db3e059305a6ad171d76997d4_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1660680838&auto=format&frame=1&q=92&s=e3544d590a6e404488e8e3cfc64c21dd"> 
+              <h3>Victoriocity Season 3: Truth and Claw</h3>
+              <p>A brand new mystery from Victoriocity, the sci-fi detective thriller comedy fiction podcast</p>
+              <p class="by">By Plantopia partners</p>
+          </div>
+  
+          <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/038/358/017/1f1a73a1d02fdc5df998e4031c8ee1e4_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1661193971&auto=format&frame=1&q=92&s=0936bfd15c1bd6c274a4e4f371b02f40"> 
+              <h3>The Paintings of The Mincing Mockingbird Volume 5: Art Book</h3>
+              <p>A hardcover art book featuring bird paintings and their non sequitur titles by artist Matt Adrian, AKA The Mincing Mockingbird</p>
+              <p class="by">By Plantopia partners</p>
+          </div>
+  
+          <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/036/665/709/122041ed4e7d37e267d067d6e2ad6669_original.png?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1647364548&auto=format&frame=1&q=92&s=b3fa156dbba450767dfd87d2da2101e8"> 
+              <h3> An Original Figure & Anime Project</h3>
+              <p>A brand new mystery from Victoriocity, the sci-fi detective thriller comedy fiction podcast</p>
+              <p class="by">By Plantopia partners</p>
+          </div>
+  
+          <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/038/393/081/2e44ae21eb45a1c89e6710e5dc4c08c2_original.png?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1661467972&auto=format&frame=1&q=92&s=1d56e07d6302549a2489088b0b9af3c8"> 
+              <h3>An Original Figure & Anime Project</h3>
+              <p> and their non sequitur titles by artistinto the lives of Kathy & Bill Magee, the founders of the charity, Operation Smile.</p>
+              <p class="by">By Plantopia partners</p>
+          </div>
+  
+          <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/038/383/078/ac2569dc09677f1cbd03fd6ce4a568aa_original.png?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1661388031&auto=format&frame=1&q=92&s=432441e1b06e891cf9ae74ae1be3e0b0"> 
+              <h3> An Original Figure & Anime Project</h3>
+              <p>LAM、くっか、九岡望によるオリジナルフィギュア＆アニメプロジェクト｜An Original figure and animation project by LAM, Kukka, and Nozomu Kuoka</p>
+              <p class="by">By Plantopia partners</p>
+          </div>
+  
+          <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/038/401/339/06fa50ebc108a6aee8df19d94aa2cd6e_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1661541073&auto=format&frame=1&q=92&s=f884846ef15dfe45f7f1e5c5c47946e1"> 
+              <h3>An Original Figure & Anime Project</h3>
+              <p>An Original figure and animation project by LAM, Kukka, and Nozomu Kuoka</p>
+              <p class="by">By Plantopia partners</p>
+          </div>
+  
+          <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/038/189/258/51bae9bbd383b02cd61877001d57620a_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1659728114&auto=format&frame=1&q=92&s=520a11e7883cd9551b1c365ff1d6ce86"> 
+              <h3>An Original Figure & Anime Project</h3>
+              <p>An Original figure and animation project by LAM, Kukka, and Nozomu Kuoka</p>
+              <p class="by">By Plantopia partners</p>
+          </div>
+  
+          <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/037/271/992/a7e2b59618b1989b204f215b97495278_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1652292424&auto=format&frame=1&q=92&s=6154a7d76b9fabdca9004ceaa485b1b3"> 
+              <h3>Plantopia - An Original Figure & Anime Project</h3>
+              <p>An Original figure and animation project by LAM, Kukka, and Nozomu Kuoka</p>
+              <p class="by">By Plantopia partners</p>
+          </div>
+  
+          <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/038/298/195/a60df37129f372e37b7d6bf21b8e4018_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1660678375&auto=format&frame=1&q=92&s=ab79817969ded6025c4d7da79d724717"> 
+              <h3>Plantopia - An Original Figure & Anime Project</h3>
+              <p>An Original figure and animation project by LAM, Kukka, and Nozomu Kuoka</p>
+              <p class="by">By Plantopia partners</p>
+          </div>
+  
+          <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/038/368/086/41e5f512ae7e43281111287bafde3974_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1661272961&auto=format&frame=1&q=92&s=e82bef9417986b92ddcecbbb357a7bcd"> 
+              <h3>An Original Figure & Anime Project</h3>
+              <p>An Original figure and animation project by LAM, Kukka, and Nozomu Kuoka</p>
+              <p class="by">By Plantopia partners</p>
+          </div>
+  
+          <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/038/359/401/945478727a9d49795db7df693b37d609_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1661204217&auto=format&frame=1&q=92&s=b71253520af342c70d29d02c36f914bc"> 
+              <h3>An Original Figure & Anime Project</h3>
+              <p>An Original figure and animation project by LAM, Kukka, and Nozomu Kuoka</p>
+              <p class="by">By Plantopia partners</p>
+          </div>
+  
+          <div class="innerslide"><img class="item" src="https://ksr-ugc.imgix.net/assets/038/155/137/f2189b9c3ced7decca3b610df56de9eb_original.jpg?ixlib=rb-4.0.2&crop=faces&w=352&h=198&fit=crop&v=1659470884&auto=format&frame=1&q=92&s=7c6754b9090ca1037fc54c8c71022c55"> 
+              <h3> An Original Figure & Anime Project</h3>
+              <p>An Original figure and animation project by LAM, Kukka, and Nozomu Kuoka</p>
+              <p class="by">By Plantopia partners</p>
+          </div>
+          </div>
+          <!-- <button class="ctrl-btn pro-prev" ><i class="arrow left"></i></button>
+          <button class="ctrl-btn pro-next"><i class="arrow right"></i></button> -->
+        </div>
+      </div>
+
 
           <!-- *********** -->
       <div id="container-4-1">
@@ -867,6 +864,71 @@ height:100%;
 </body>
 </html>
 
+
+<script>
+
+  "use strict";
+  
+  productScroll();
+  
+  function productScroll() {
+    let slider = document.getElementById("slider");
+    let next = document.getElementsByClassName("pro-next");
+    let prev = document.getElementsByClassName("pro-prev");
+    let slide = document.getElementById("slide");
+    let item = document.getElementById("slide");
+  
+    for (let i = 0; i < next.length; i++) {
+      //refer elements by class name
+  
+      let position = 0; //slider postion
+  
+      prev[i].addEventListener("click", function() {
+        //click previos button
+        if (position > 0) {
+          //avoid slide left beyond the first item
+          position -= 1;
+          translateX(position); //translate items
+        }
+      });
+  
+      next[i].addEventListener("click", function() {
+        if (position >= 0 && position < hiddenItems()) {
+          //avoid slide right beyond the last item
+          position += 1;
+          translateX(position); //translate items
+        }
+      });
+    }
+  
+    function hiddenItems() {
+      //get hidden items
+      let items = getCount(item, false);
+      let visibleItems = slider.offsetWidth / 210;
+      return items - Math.ceil(visibleItems);
+    }
+  }
+  
+  function translateX(position) {
+    //translate items
+    slide.style.left = position * -210 + "px";
+  }
+  
+  function getCount(parent, getChildrensChildren) {
+    //count no of items
+    let relevantChildren = 0;
+    let children = parent.childNodes.length;
+    for (let i = 0; i < children; i++) {
+      if (parent.childNodes[i].nodeType != 3) {
+        if (getChildrensChildren)
+          relevantChildren += getCount(parent.childNodes[i], true);
+        relevantChildren++;
+      }
+    }
+    return relevantChildren;
+  }
+  
+  </script>
 
 
 
