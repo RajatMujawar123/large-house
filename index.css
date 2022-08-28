@@ -514,27 +514,29 @@ border: solid transparent 1px;
     border: solid transparent 1px;
     gap: 20px;
     margin-top: 0px;
+    cursor: pointer;
     }
     .innerslide>img{
     width: 300px;
     height: 180px;
     }
     #slidecont{
-    border: solid red 1px;
+    border: solid transparent 1px;
     width: 90%;
     margin: auto;
-    height: 600px;
+    height: 550px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     }
     #fresh{
-    border: solid teal 1px;
+    border: solid transparent 1px;
     display: flex;
     align-items: center;
     justify-content: space-between;  
     margin-bottom: -60px; 
-    height: 30px;
+    height: 40px;
+    
     }
     
     .arrow {
@@ -555,6 +557,11 @@ border: solid transparent 1px;
     }
     .by{
     margin-top: 20px;
+    color: #282828;
+    font-size: 12px;
+    }
+    .by:hover{
+        text-decoration: underline 1px;
     }
     #fresh2{
     display: flex;
@@ -564,15 +571,208 @@ border: solid transparent 1px;
     #fresh3{
     display: flex;
     gap: 30px;
+    border: solid transparent 1px;
     }
     #btn{
     background-color: white;
     border: 0px;
-    padding: 5px 10px;
-    
+    height: 20px;
+    width: 30px;
+    cursor: pointer;
+    border: solid transparent 1px;
+    padding-left: 8px;
     }
     #btn:hover{
     border: 2px solid cornflowerblue;
-    border-radius: 20px;
+    border-radius: 50px;
+    
     }
+    #fr{
+        margin-top: 10px;
+        cursor: pointer;
+        font-size: 15px;
+color: #656969;
+font-weight: bold;
+    }
+    #frs{
+        font-size: 13px;
+        color: blue;
+        cursor: pointer;
+    }
+    .ve{
+        margin-top: 20px;
+        font-size: 17px;
+        font-weight: 10;
+    }
+    .ve:hover{
+        color: #037362;
+text-decoration: underline 1px;
+    }
+    .ves{
+        margin-top: 20px;
+        font-size: 13px;
+    }
+    .ves:hover{
+        text-decoration: underline 1px #037362;
+    }
+    #slideshow{
+        border: solid transparent 1px;
+        margin-top: 20px;
+        border-bottom: solid grey 1px;
+    }
+
+
+
+
+    /* *********************************** */
+
+    .der {
+        width: 100%;
+        height: 400px;
+        position: relative;
+        margin: auto;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        border: solid transparent 1px;
+        }
+        
+        .der::-webkit-scrollbar {
+        display: none;
+        
+        }
+        
+        .der .de {
+        display: flex;
+        position: absolute;
+        left: 0;
+        transition: 0.3s left ease-in-out;
+        border: solid transparent 1px;
+        }
+        
+        .der .ITEM {
+        margin-right: 10px;
+        border: solid transparent 1px;
+        
+        }
+        
+        .der .ITEM:last-child {
+        margin-right: 0;
+        }
+        
+        
+        .ctrl-btn.pro-next1 {
+        right: 0;
+        } 
+    
+    
+        .innerSlide{
+        border: solid transparent 1px;
+        gap: 20px;
+        margin-top: 0px;
+        cursor: pointer;
+        }
+        .innerSlide>img{
+        width: 300px;
+        height: 180px;
+        }
+        #slidecontainer{
+        border: solid transparent 1px;
+        width: 90%;
+        margin: auto;
+        height: 550px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        }
+        #FRESH{
+        border: solid transparent 1px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;  
+        margin-bottom: -60px; 
+        height: 40px;
+        
+        }
+        
+        .arrow {
+        border: solid blue;
+        border-width: 0 1px 1px 0;
+        display: inline-block;
+        padding: 3px;
+        color: blue;
+        }
+        
+        .right {
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        }
+        .left {
+        transform: rotate(135deg);
+        -webkit-transform: rotate(135deg);
+        }
+        .BY{
+        margin-top: 20px;
+        color: #282828;
+        font-size: 12px;
+        }
+        .BY:hover{
+            text-decoration: underline 1px;
+        }
+        #FRESH2{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        }
+        #FRESH3{
+        display: flex;
+        gap: 30px;
+        border: solid transparent 1px;
+        }
+        #BTN{
+        background-color: white;
+        border: 0px;
+        height: 20px;
+        width: 30px;
+        cursor: pointer;
+        border: solid transparent 1px;
+        padding-left: 8px;
+        }
+        #BTN:hover{
+        border: 2px solid cornflowerblue;
+        border-radius: 50px;
+        
+        }
+        #H3{
+            margin-top: 10px;
+            cursor: pointer;
+            font-size: 15px;
+    color: #656969;
+    font-weight: bold;
+        }
+        #FRS{
+            font-size: 13px;
+            color: blue;
+            cursor: pointer;
+        }
+        .VE{
+            margin-top: 20px;
+            font-size: 17px;
+            font-weight: 10;
+        }
+        .VE:hover{
+            color: #037362;
+    text-decoration: underline 1px;
+        }
+        .VES{
+            margin-top: 20px;
+            font-size: 13px;
+        }
+        .VES:hover{
+            text-decoration: underline 1px #037362;
+        }
+        #show{
+            border: solid transparent 1px;
+            margin-top: 20px;
+            border-bottom: solid grey 1px;
+        }
     
