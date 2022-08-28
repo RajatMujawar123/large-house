@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://kit.fontawesome.com/03ec454ecd.js" crossorigin="anonymous"></script>
-    <style>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="footer.css">
+   <style>  
         #explore{
             display: flex;
             gap: 5px;
             margin-left: 30px;
             align-items: center;
+            margin-top:30px;
         }
         #masterdiv{
             display: grid;
@@ -30,6 +33,9 @@
             margin-left: 20px;
            
         }
+        #explore{
+            margin-bottom: 30px;
+        }
         #masterdiv>div{
             padding-bottom: 10px;
             box-shadow: rgba(203, 203, 208, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
@@ -37,7 +43,9 @@
         #title >h2{
             font-size: 20px;
             width: 80%;
+            
         }
+   
         #title >h2+p{
             width: 80%;
             font-size: 15px;
@@ -67,7 +75,7 @@
         }
         #day{
             padding-left: 20px;
-           
+           margin-top: 20px;
         }
        #cont{
         width: 430px;
@@ -89,12 +97,13 @@
        background-color: #037362;
         font-size:20px;
         border-radius: 5px ;
-        
+        margin-bottom: 30px;
        }
 
     </style>
 </head>
 <body>
+    <div id="navbar"></div>
 <div id="explore"> 
     <p style=" font-size: 30px;">Explore</p>
     <p style="color:#037362; font-size: 35px;">291 Projects</p>
@@ -354,5 +363,13 @@
     </div>
 </div>
 <div id="butn"><button>loadmore</button></div>
+<div id="footer"></div>
 </body>
 </html>
+<script type="module">
+    import { navbar, footer } from "./import.js"
+
+    document.getElementById("navbar").innerHTML = navbar();
+  
+    document.getElementById("footer").innerHTML = footer();
+</script>
