@@ -82,7 +82,7 @@ form1.addEventListener("submit",function(event){
        
         localStorage.setItem("signin",JSON.stringify(data))
         alert("Sign in Successfull")
-        window.location.href="";
+        window.location.href="index.html";
     }else{
         alert("Not yet Registered")
     }

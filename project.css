@@ -5,13 +5,11 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 #pMainMRS{
-    border: 1px solid;
     width: 80%;
     margin: auto;
     
 }
 #containerMRS{
-    border: 1px solid  red;
     width: 80%;
     margin: auto;
     margin-top: 100px;
@@ -46,18 +44,12 @@
     text-align: center;
 }
 #optionMRS{
-    border: 1px solid blue;
     width: 80%;
     margin: auto;
     padding: 70px;
 }
 #logoMRS{
-
-    width: 35%;
-    margin: auto;
-}
-#logoMRS>img{
-    width: 40%;
+    width: 15%;
     display: block;
     margin: auto;
 }
@@ -97,7 +89,6 @@
     margin-top: 50px;
 }
 #lastMRS{
-    border: 1px solid yellow;
     width: 80%;
     margin: auto;
     display: flex;
